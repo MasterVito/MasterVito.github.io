@@ -21,7 +21,7 @@ repository               : "MasterVito/MasterVito.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "photo.jpg"
+  avatar           : "photo.png"
   name             : "Xiao Liang (梁潇)"
   bio              : *description
   location         : "Beijing, CN"
