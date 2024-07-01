@@ -121,7 +121,7 @@ I am excited to apply for Fall 2025 Ph.D. programs and investigate potential col
 <br> Mentor: [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/)
 <br> Working on large language models, pre-training strategy and model architecture.
 
-- (Mar. 2023 - Jun. 2023) Research Intern, AI Lab, Tencent Inc., Guangdong, China.
+- (Mar. 2023 - Jul. 2023) Research Intern, AI Lab, Tencent Inc., Guangdong, China.
 <br> Mentor: [Pengyu Cheng](https://linear95.github.io/), Nan Du
 <br> Working on large language models, long sequence processing.
 
