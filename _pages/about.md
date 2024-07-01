@@ -89,7 +89,7 @@ I am excited to apply for Fall 2025 Ph.D. programs and investigate potential col
       <br>
       Tao Shi*, <b> Xiao Liang* </b>, Yaoyuan Liang, Xinyi Tong, Shao-Lun Huang
       <br>
-      <em>Preprint 2023, </em> <a href="https://arxiv.org/pdf/2310.16676">[PDF]</a>
+      <em>Preprint 2023, </em> <a href="https://arxiv.org/pdf/2310.16676">[PDF]</a> <a href="https://github.com/TaoShi1998/SSLCL">[Code]</a> 
       <br>
       <p> We introduce utilizing label representations by projecting discrete labels into dense embeddings for multimodal emotion classification.</p>
     </td>
