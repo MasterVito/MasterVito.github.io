@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 About Me"
+title: "👋About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -14,7 +14,7 @@ My current research focuses on pre-training strategy and reinforcement learning 
 
   
 
-📖 Education
+📖Education
 ======
 - **Aug. 2022 - Jun. 2025 (Expected)** M.Sc., Data Science and Information Technology, Tsinghua University, Beijing, China.
 <br>*GPA: 3.98/4.0, Top 3%*
@@ -24,7 +24,7 @@ My current research focuses on pre-training strategy and reinforcement learning 
 
   
 
-📑 Publications
+📑Publications
 ======
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" border="1" cellspacing="0" cellpadding="10"><tbody>	
 
@@ -125,7 +125,7 @@ My current research focuses on pre-training strategy and reinforcement learning 
 <br> Working on large language models, long sequence processing.
 
 
-🏆Honors & Awards
+🏆Honors and Awards
 ======
 - Outstanding Graduate Thesis, Sun Yat-sen University, Guangdong, 2022
 - Outstanding Graduate Student, Sun Yat-sen University, Guangdong, 2022

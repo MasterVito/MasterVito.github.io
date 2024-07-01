@@ -3,16 +3,16 @@ main:
     url: /about
 
   - title: "Education"
-    url: /about
+    url: /#education
 
   - title: "Publications"
-    url: /about
+    url: /#publications
 
   - title: "Industry Experience"
-    url: /about
+    url: /#industry-experience
 
   - title: "Honors and Awards"
-    url: /about
+    url: /#honors-and-awards
 
 # main:
 #   - title: "Publications"
