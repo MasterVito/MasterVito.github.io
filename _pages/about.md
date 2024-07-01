@@ -122,7 +122,7 @@ I am excited to apply for Fall 2025 Ph.D. programs and investigate potential col
 <br> Working on large language models, pre-training strategy and model architecture.
 
 - (Mar. 2023 - Jul. 2023) Research Intern, AI Lab, Tencent Inc., Guangdong, China.
-<br> Mentor: [Pengyu Cheng](https://linear95.github.io/), Nan Du
+<br> Mentor: [Pengyu Cheng](https://linear95.github.io/), [Nan Du](https://scholar.google.com/citations?hl=en&user=BO4jEkAAAAAJ)
 <br> Working on large language models, long sequence processing.
 
 
