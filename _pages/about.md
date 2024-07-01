@@ -130,4 +130,4 @@ My current research focuses on pre-training strategy and reinforcement learning 
 - Outstanding Graduate Thesis, Sun Yat-sen University, Guangdong, 2022
 - Outstanding Graduate Student, Sun Yat-sen University, Guangdong, 2022
 - Second Prize Scholarship, Sun Yat-sen University, Guangdong, 2019~2022
-- 1st of the 2022 Tsinghua Open Hack Competition - Multimodal Learning Track, Tsinghua University, Beijing, 2023
+- 1st of the 2022 Tsinghua Open Hack Competition - Multimodal Learning Track, Tsinghua University, Beijing, 2022
