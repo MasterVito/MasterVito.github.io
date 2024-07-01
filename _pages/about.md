@@ -115,7 +115,7 @@ I am excited to apply for Fall 2025 Ph.D. programs and investigate potential col
 (* indicates equal contribution)
 
 
-🧑‍💻Industry Experience
+🧑‍💻Experience
 ======
 - (Nov. 2023 - To Date) Reserch Intern, NLC Group, Microsoft Research Asia, Beijing, China.
 <br> Mentor: [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/)
