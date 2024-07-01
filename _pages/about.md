@@ -105,7 +105,7 @@ I am excited to apply for Fall 2025 Ph.D. programs and investigate potential col
       <br>
       Jiawen Xie, Pengyu Cheng, <b> Xiao Liang </b>, Yong Dai, Nan Du
       <br>
-      <em>ACL 2024, </em> <a href="https://arxiv.org/pdf/2308.13191">[PDF]</a>
+      <em>ACL 2024, </em> <a href="https://arxiv.org/pdf/2308.13191">[PDF]</a> <a href="https://github.com/xjw-nlp/SimCAS">[Code]</a> 
       <br>
       <p> we propose a token selection framework for pre-trained transformers to process long sequences utilizing reinforcement learning.</p>
     </td>
