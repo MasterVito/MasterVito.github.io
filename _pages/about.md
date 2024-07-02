@@ -74,7 +74,7 @@ I am excited to apply for Fall 2025 Ph.D. programs and investigate potential col
       <br>
       <em>AAAI 2024, </em> <a href="https://ojs.aaai.org/index.php/AAAI/article/download/28118/28240">[PDF]</a>
       <br>
-      <p> we propose a framework of Comprehensive Space-Time entAnglement to densely entangle space-time multi-modal features for spatio-temporal localization.</p>
+      <p> We propose a framework of Comprehensive Space-Time entAnglement to densely entangle space-time multi-modal features for spatio-temporal localization.</p>
     </td>
   </tr>	
 
@@ -107,7 +107,7 @@ I am excited to apply for Fall 2025 Ph.D. programs and investigate potential col
       <br>
       <em>ACL 2024, </em> <a href="https://arxiv.org/pdf/2308.13191">[PDF]</a> <a href="https://github.com/xjw-nlp/SimCAS">[Code]</a> 
       <br>
-      <p> we propose a token selection framework for pre-trained transformers to process long sequences utilizing reinforcement learning.</p>
+      <p> We propose a token selection framework for pre-trained transformers to process long sequences utilizing reinforcement learning.</p>
     </td>
   </tr>
 
