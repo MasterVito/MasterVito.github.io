@@ -117,7 +117,7 @@ I am excited to apply for Fall 2025 Ph.D. programs and investigate potential col
 
 🧑‍💻Experience
 ======
-- (Nov. 2023 - To Date) Reserch Intern, NLC Group, Microsoft Research Asia, Beijing, China.
+- (Nov. 2023 - Present) Reserch Intern, NLC Group, Microsoft Research Asia, Beijing, China.
 <br> Mentor: [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/)
 <br> Working on large language models, pre-training strategy and model architecture.
 
