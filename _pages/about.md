@@ -21,7 +21,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
 <br>*GPA: 3.98/4.0, Top 3%*
 
 - **Sep. 2018 - Jun. 2022** B.Sc., Electronic Information Science and Technology, Sun Yat-sen University, Guangzhou, China.
-<br>*GPA: 4.10/5.0, Top 3%*
+<br>*GPA: 4.11/5.0, Top 3%*
 
   
 
