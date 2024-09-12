@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-I am a second-year Master's student in Data Science at Tsinghua University, advised by Prof. [Shao-Lun Huang](https://sites.google.com/view/slhuang/home). Before that, I earned my B.S. in Electronic Engineering from Sun Yat-sen University (SYSU) in 2022, under the guidance of Prof. [Yulan Guo](http://www.yulanguo.cn/). Currently I'm a research intern at Microsoft Research Asia, working with Dr. [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/). I also interned at Tencent AI Lab, collaborating with Dr. [Pengyu Cheng](https://linear95.github.io/). 
+I am a third-year Master's student in Data Science at Tsinghua University, advised by Prof. [Shao-Lun Huang](https://sites.google.com/view/slhuang/home). Before that, I earned my B.S. in Electronic Engineering from Sun Yat-sen University (SYSU) in 2022, under the guidance of Prof. [Yulan Guo](http://www.yulanguo.cn/). Currently I'm a research intern at Microsoft Research Asia, working with Dr. [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/). I also interned at Tencent AI Lab, collaborating with Dr. [Pengyu Cheng](https://linear95.github.io/). 
 
 My current research focuses on pre-training strategy and reinforcement learning (RL) for Large Language Models (LLMs), with a long-term aim at AGI. 
 I am excited to apply for Fall 2025 PhD programs and investigate potential collaborations. If you are interested in discussing opportunities or have any questions, please feel free to [EMAIL](mailto:vitoliang0601@gmail.com) me. I genuinely appreciate your consideration and look forward to connecting with you.
