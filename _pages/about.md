@@ -39,7 +39,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       <b> Xiao Liang* </b> , Xinyu Hu*, Simiao Zuo, Yeyun Gong, Qiang Lou, Yi Liu, Shao-Lun Huang, Jian Jiao
       <br>
-      <em>Preprint 2024, </em> <a href="https://arxiv.org/pdf/2406.16694">[PDF]</a>
+      <em>EMNLP 2024, </em> <a href="https://arxiv.org/pdf/2406.16694">[PDF]</a>
       <br>
       <p> We propose a task-oriented in-domain data augmentation framework consisting of in-domain data selection and task-oriented synthetic passage generation.</p>
     </td>
