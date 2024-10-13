@@ -37,7 +37,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
     <td width="75%" valign="center">
       <papertitle>What You See Is What You Get: Entity-Aware Summarization for Reliable Sponsored Search</papertitle>
       <br>
-      <b> Xiao Liang </b> , Xinyu Hu, Simiao Zuo, Jimi He, Yu Wang, Victor Ye Dong, Yeyun Gong, Kushal S. Dave, Yi Liu, Qiang Lou, Shao-Lun Huang, Jian Jiao
+      <b>Xiao Liang</b>, Xinyu Hu, Simiao Zuo, Jimi He, Yu Wang, Victor Ye Dong, Yeyun Gong, Kushal S. Dave, Yi Liu, Qiang Lou, Shao-Lun Huang, Jian Jiao
       <br>
       <em>NeurIPS 2024 SafeGenAi, </em> [To be present]
       <br>
@@ -54,7 +54,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
     <td width="75%" valign="center">
       <papertitle>Integrative Decoding: Improve Factuality via Implicit Self-consistency</papertitle>
       <br>
-      Yi Cheng, <b> Xiao Liang </b>, Yeyun Gong, Wen Xiao, Song Wang, Yuji Zhang, Wenjun Hou, Kaishuai Xu, Wenge Liu, Wenjie Li, Jian Jiao, Qi Chen, Peng Cheng, Wayne Xiong
+      Yi Cheng, <b>Xiao Liang</b>, Yeyun Gong, Wen Xiao, Song Wang, Yuji Zhang, Wenjun Hou, Kaishuai Xu, Wenge Liu, Wenjie Li, Jian Jiao, Qi Chen, Peng Cheng, Wayne Xiong
       <br>
       <em> Preprint 2024, </em> <a href="https://arxiv.org/abs/2410.01556">[PDF]</a>
       <br>
@@ -137,7 +137,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
     <td width="75%" valign="center">
       <papertitle>Chunk, Align, Select: A Simple Long-sequence Processing Method for Transformers</papertitle>
       <br>
-      Jiawen Xie, Pengyu Cheng, <b> Xiao Liang </b>, Yong Dai, Nan Du
+      Jiawen Xie, Pengyu Cheng, <b>Xiao Liang</b>, Yong Dai, Nan Du
       <br>
       <em>ACL 2024, </em> <a href="https://arxiv.org/pdf/2308.13191">[PDF]</a> <a href="https://github.com/xjw-nlp/SimCAS">[Code]</a> 
       <br>
@@ -153,7 +153,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
     <td width="75%" valign="center">
       <papertitle>Unleash Region Understanding in Intermediate Layers for MLLM-based Referring Expression Generation </papertitle>
       <br>
-      Yaoyuan Liang, Zhuojun Cai, Jian Xu, Guanbo Huang, Yiran Wang, <b> Xiao Liang </b>, Jiahao Liu, Ziran Li, Jingang Wang, Shao-Lun Huang
+      Yaoyuan Liang, Zhuojun Cai, Jian Xu, Guanbo Huang, Yiran Wang, <b>Xiao Liang</b>, Jiahao Liu, Ziran Li, Jingang Wang, Shao-Lun Huang
       <br>
       <em>NeurIPS 2024, </em> [To be present]
       <br>
