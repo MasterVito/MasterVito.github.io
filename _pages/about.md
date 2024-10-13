@@ -71,7 +71,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
     <td width="75%" valign="center">
       <papertitle>Task Oriented In-Domain Data Augmentation</papertitle>
       <br>
-      <b> Xiao Liang* </b> , Xinyu Hu*, Simiao Zuo, Yeyun Gong, Qiang Lou, Yi Liu, Shao-Lun Huang, Jian Jiao
+      <b>Xiao Liang*</b> , Xinyu Hu*, Simiao Zuo, Yeyun Gong, Qiang Lou, Yi Liu, Shao-Lun Huang, Jian Jiao
       <br>
       <em>EMNLP 2024, </em> <a href="https://arxiv.org/pdf/2406.16694">[PDF]</a>
       <br>
@@ -88,7 +88,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
     <td width="75%" valign="center">
       <papertitle>Exploring Iterative Refinement with Diffusion Models for Video Grounding</papertitle>
       <br>
-      <b> Xiao Liang*</b>, Tao Shi*, Yaoyuan Liang, Te Tao, Shao-Lun Huang
+      <b>Xiao Liang*</b>, Tao Shi*, Yaoyuan Liang, Te Tao, Shao-Lun Huang
       <br>
       <em>ICME 2024, </em> <a href="https://arxiv.org/pdf/2310.17189">[PDF]</a> <a href="https://github.com/MasterVito/DiffusionVG">[Code]</a> 
       <br>
@@ -104,7 +104,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
     <td width="75%" valign="center">
       <papertitle>CoSTA: End-to-End Comprehensive Space-Time Entanglement for Spatio-Temporal Video Grounding</papertitle>
       <br>
-      Yaoyuan Liang*, <b> Xiao Liang* </b>, Yansong Tang, Zhao Yang, Ziran Li, Jingang Wang, Wenbo Ding, Shao-Lun Huang
+      Yaoyuan Liang*, <b>Xiao Liang*</b>, Yansong Tang, Zhao Yang, Ziran Li, Jingang Wang, Wenbo Ding, Shao-Lun Huang
       <br>
       <em>AAAI 2024, </em> <a href="https://ojs.aaai.org/index.php/AAAI/article/download/28118/28240">[PDF]</a>
       <br>
@@ -121,7 +121,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
     <td width="75%" valign="center">
       <papertitle>SSLCL: An Efficient Model-Agnostic Supervised Contrastive Learning Framework for Emotion Recognition in Conversations</papertitle>
       <br>
-      Tao Shi*, <b> Xiao Liang* </b>, Yaoyuan Liang, Xinyi Tong, Shao-Lun Huang
+      Tao Shi*, <b>Xiao Liang*</b>, Yaoyuan Liang, Xinyi Tong, Shao-Lun Huang
       <br>
       <em>Preprint 2023, </em> <a href="https://arxiv.org/pdf/2310.16676">[PDF]</a> <a href="https://github.com/TaoShi1998/SSLCL">[Code]</a> 
       <br>
