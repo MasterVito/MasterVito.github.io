@@ -132,7 +132,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
   <!--unleash-then-eliminate-->
   <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
-      <img style="width:100%;max-width:100%" src="../images/simcas.png" alt="dise">
+      <img style="width:100%;max-width:100%" src="../images/unleash-then-eliminate.png" alt="dise">
     </td>
     <td width="75%" valign="center">
       <papertitle>Unleash Region Understanding in Intermediate Layers for MLLM-based Referring Expression Generation </papertitle>
