@@ -129,6 +129,22 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
     </td>
   </tr>	
 
+  <!--SimCAS-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/simcas.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>Chunk, Align, Select: A Simple Long-sequence Processing Method for Transformers</papertitle>
+      <br>
+      Jiawen Xie, Pengyu Cheng, <b> Xiao Liang </b>, Yong Dai, Nan Du
+      <br>
+      <b> <em>ACL 2024, </em> <b> <a href="https://arxiv.org/pdf/2308.13191">[PDF]</a> <a href="https://github.com/xjw-nlp/SimCAS">[Code]</a> 
+      <br>
+      <p> We propose a token selection framework for pre-trained transformers to process long sequences utilizing reinforcement learning.</p>
+    </td>
+  </tr>
+
   <!--unleash-then-eliminate-->
   <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
@@ -145,22 +161,6 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
     </td>
   </tr>
 
-
-  <!--SimCAS-->
-  <tr>
-    <td style="padding:20px;width:30%;max-width:30%" align="center">
-      <img style="width:100%;max-width:100%" src="../images/simcas.png" alt="dise">
-    </td>
-    <td width="75%" valign="center">
-      <papertitle>Chunk, Align, Select: A Simple Long-sequence Processing Method for Transformers</papertitle>
-      <br>
-      Jiawen Xie, Pengyu Cheng, <b> Xiao Liang </b>, Yong Dai, Nan Du
-      <br>
-      <b> <em>ACL 2024, </em> <b> <a href="https://arxiv.org/pdf/2308.13191">[PDF]</a> <a href="https://github.com/xjw-nlp/SimCAS">[Code]</a> 
-      <br>
-      <p> We propose a token selection framework for pre-trained transformers to process long sequences utilizing reinforcement learning.</p>
-    </td>
-  </tr>
 
 </tbody></table>
 (* indicates equal contribution)
