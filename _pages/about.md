@@ -29,6 +29,40 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
 ======
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" border="1" cellspacing="0" cellpadding="10"><tbody>	
 
+  <!--Entity Sum-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/Entity_sum.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>What You See Is What You Get: Entity-Aware Summarization for Reliable Sponsored Search</papertitle>
+      <br>
+      <b> Xiao Liang </b> , Xinyu Hu, Simiao Zuo, Jimi He, Yu Wang, Victor Ye Dong, Yeyun Gong, Kushal S. Dave, Yi Liu, Qiang Lou, Shao-Lun Huang, Jian Jiao
+      <br>
+      <em>NeurIPS 2024 Workshop SafeGenAi, </em> [To be present]
+      <br>
+      <p> We introduce a framework for generating reliable AI-driven entity-aware summaries for information retrieval in the sponsored search ads domain.</p>
+    </td>
+  </tr>	
+
+
+  <!--Integrative Decoding-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/Int_decode.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>Integrative Decoding: Improve Factuality via Implicit Self-consistency</papertitle>
+      <br>
+      Yi Cheng, <b> Xiao Liang </b>, Yeyun Gong, Wen Xiao, Song Wang, Yuji Zhang, Wenjun Hou, Kaishuai Xu, Wenge Liu, Wenjie Li, Jian Jiao, Qi Chen, Peng Cheng, Wayne Xiong
+      <br>
+      <em> Preprint 2024, </em> <a href="https://arxiv.org/abs/2410.01556">[PDF]</a>
+      <br>
+      <p> This paper presents a self-consistency based decoding strategy for improving the factual accuracy of large language models, especially in long-form generation tasks.</p>
+    </td>
+  </tr>	
+
+
   <!--TRAIT-->
   <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
@@ -94,6 +128,23 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <p> We introduce utilizing label representations by projecting discrete labels into dense embeddings for multimodal emotion classification.</p>
     </td>
   </tr>	
+
+  <!--unleash-then-eliminate-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/simcas.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>Unleash Region Understanding in Intermediate Layers for MLLM-based Referring Expression Generation </papertitle>
+      <br>
+      Yaoyuan Liang, Zhuojun Cai, Jian Xu, Guanbo Huang, Yiran Wang, <b> Xiao Liang </b>, Jiahao Liu, Ziran Li, Jingang Wang, Shao-Lun Huang
+      <br>
+      <em>NeurIPS 2024, </em> [To be present]
+      <br>
+      <p> We present to elicit the latent information in intermediate layers adopt a cycle-consistency-based decoding method to alleviate hallucinations in the REG task. </p>
+    </td>
+  </tr>
+
 
   <!--SimCAS-->
   <tr>
