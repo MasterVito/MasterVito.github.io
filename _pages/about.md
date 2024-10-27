@@ -39,7 +39,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       <b>Xiao Liang</b>, Xinyu Hu, Simiao Zuo, Jimi He, Yu Wang, Victor Ye Dong, Yeyun Gong, Kushal S. Dave, Yi Liu, Qiang Lou, Shao-Lun Huang, Jian Jiao
       <br>
-      <em>NeurIPS 2024 SafeGenAi, </em> <a href="../_publications/NIPS_WS_2024_Entity_Sum_CR.pdf">[PDF]</a>
+      <em>NeurIPS 2024 SafeGenAi, </em> <a href="https://github.com/MasterVito/MasterVito.github.io/raw/master/_publications/NIPS_WS_2024_Entity_Sum_CR.pdf">[PDF]</a>
       <br>
       <p> We introduce a framework for generating reliable AI-driven entity-aware summaries for information retrieval in the sponsored search ads domain.</p>
     </td>
