@@ -27,6 +27,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
 
 📑Publications
 ======
+**Language Modeling:**
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" border="1" cellspacing="0" cellpadding="10"><tbody>	
 
   <!--Entity Sum-->
@@ -79,7 +80,42 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
     </td>
   </tr>	
 
+  <!--SSLCL-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/sslcl.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>SSLCL: An Efficient Model-Agnostic Supervised Contrastive Learning Framework for Emotion Recognition in Conversations</papertitle>
+      <br>
+      Tao Shi*, <b>Xiao Liang*</b>, Yaoyuan Liang, Xinyi Tong, Shao-Lun Huang
+      <br>
+      <em>Preprint 2023, </em> <a href="https://arxiv.org/pdf/2310.16676">[PDF]</a> <a href="https://github.com/TaoShi1998/SSLCL">[Code]</a> 
+      <br>
+      <p> We introduce utilizing label representations by projecting discrete labels into dense embeddings for multimodal emotion classification.</p>
+    </td>
+  </tr>	
 
+  <!--SimCAS-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/simcas.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>Chunk, Align, Select: A Simple Long-sequence Processing Method for Transformers</papertitle>
+      <br>
+      Jiawen Xie, Pengyu Cheng, <b>Xiao Liang</b>, Yong Dai, Nan Du
+      <br>
+      <em>ACL 2024, </em> <a href="https://arxiv.org/pdf/2308.13191">[PDF]</a> <a href="https://github.com/xjw-nlp/SimCAS">[Code]</a> 
+      <br>
+      <p> We propose a token selection framework for pre-trained transformers to process long sequences utilizing reinforcement learning.</p>
+    </td>
+  </tr>
+
+</tbody></table>
+
+**Multimodal Understanding:**
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" border="1" cellspacing="0" cellpadding="10"><tbody>	
   <!--DiffusionVG-->
   <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
@@ -113,37 +149,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
   </tr>	
 
 
-  <!--SSLCL-->
-  <tr>
-    <td style="padding:20px;width:30%;max-width:30%" align="center">
-      <img style="width:100%;max-width:100%" src="../images/sslcl.png" alt="dise">
-    </td>
-    <td width="75%" valign="center">
-      <papertitle>SSLCL: An Efficient Model-Agnostic Supervised Contrastive Learning Framework for Emotion Recognition in Conversations</papertitle>
-      <br>
-      Tao Shi*, <b>Xiao Liang*</b>, Yaoyuan Liang, Xinyi Tong, Shao-Lun Huang
-      <br>
-      <em>Preprint 2023, </em> <a href="https://arxiv.org/pdf/2310.16676">[PDF]</a> <a href="https://github.com/TaoShi1998/SSLCL">[Code]</a> 
-      <br>
-      <p> We introduce utilizing label representations by projecting discrete labels into dense embeddings for multimodal emotion classification.</p>
-    </td>
-  </tr>	
 
-  <!--SimCAS-->
-  <tr>
-    <td style="padding:20px;width:30%;max-width:30%" align="center">
-      <img style="width:100%;max-width:100%" src="../images/simcas.png" alt="dise">
-    </td>
-    <td width="75%" valign="center">
-      <papertitle>Chunk, Align, Select: A Simple Long-sequence Processing Method for Transformers</papertitle>
-      <br>
-      Jiawen Xie, Pengyu Cheng, <b>Xiao Liang</b>, Yong Dai, Nan Du
-      <br>
-      <em>ACL 2024, </em> <a href="https://arxiv.org/pdf/2308.13191">[PDF]</a> <a href="https://github.com/xjw-nlp/SimCAS">[Code]</a> 
-      <br>
-      <p> We propose a token selection framework for pre-trained transformers to process long sequences utilizing reinforcement learning.</p>
-    </td>
-  </tr>
 
   <!--unleash-then-eliminate-->
   <tr>
@@ -160,9 +166,9 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <p> We present to elicit the latent information in intermediate layers adopt a cycle-consistency-based decoding method to alleviate hallucinations in the REG task. </p>
     </td>
   </tr>
-
-
 </tbody></table>
+
+
 (* indicates equal contribution)
 
 
