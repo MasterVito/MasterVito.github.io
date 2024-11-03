@@ -155,7 +155,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       Yaoyuan Liang, Zhuojun Cai, Jian Xu, Guanbo Huang, Yiran Wang, <b>Xiao Liang</b>, Jiahao Liu, Ziran Li, Jingang Wang, Shao-Lun Huang
       <br>
-      <em>NeurIPS 2024, </em> [To be present]
+      <em>NeurIPS 2024, </em> <a href="https://github.com/MasterVito/MasterVito.github.io/raw/master/_publications/NIPS_2024_REG_hallu.pdf">[PDF]</a>
       <br>
       <p> We present to elicit the latent information in intermediate layers adopt a cycle-consistency-based decoding method to alleviate hallucinations in the REG task. </p>
     </td>
