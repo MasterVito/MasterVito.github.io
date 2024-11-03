@@ -40,7 +40,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       <b>Xiao Liang</b>, Xinyu Hu, Simiao Zuo, Jimi He, Yu Wang, Victor Ye Dong, Yeyun Gong, Kushal S. Dave, Yi Liu, Qiang Lou, Shao-Lun Huang, Jian Jiao
       <br>
-      <em>NeurIPS 2024 SafeGenAi, </em> <a href="https://github.com/MasterVito/MasterVito.github.io/raw/master/_publications/NIPS_WS_2024_Entity_Sum_CR.pdf">[PAPER]</a>
+      <em>NeurIPS 2024 SafeGenAi, </em> <a href="https://github.com/MasterVito/MasterVito.github.io/raw/master/_publications/NIPS_WS_2024_Entity_Sum_CR.pdf">[Paper]</a>
       <br>
       <p> We introduce a framework for generating reliable AI-driven entity-aware summaries for information retrieval in the sponsored search ads domain.</p>
     </td>
@@ -57,7 +57,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       Yi Cheng, <b>Xiao Liang</b>, Yeyun Gong, Wen Xiao, Song Wang, Yuji Zhang, Wenjun Hou, Kaishuai Xu, Wenge Liu, Wenjie Li, Jian Jiao, Qi Chen, Peng Cheng, Wayne Xiong
       <br>
-      <em> Preprint 2024, </em> <a href="https://arxiv.org/abs/2410.01556">[PAPER]</a>
+      <em> Preprint 2024, </em> <a href="https://arxiv.org/abs/2410.01556">[Paper]</a>
       <br>
       <p> This paper presents a self-consistency based decoding strategy for improving the factual accuracy of large language models, especially in long-form generation tasks.</p>
     </td>
@@ -74,7 +74,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       <b>Xiao Liang*</b> , Xinyu Hu*, Simiao Zuo, Yeyun Gong, Qiang Lou, Yi Liu, Shao-Lun Huang, Jian Jiao
       <br>
-      <em>EMNLP 2024, </em> <a href="https://arxiv.org/pdf/2406.16694">[PAPER]</a>
+      <em>EMNLP 2024, </em> <a href="https://arxiv.org/pdf/2406.16694">[Paper]</a>
       <br>
       <p> We propose a task-oriented in-domain data augmentation framework consisting of in-domain data selection and task-oriented synthetic passage generation.</p>
     </td>
@@ -90,7 +90,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       Tao Shi*, <b>Xiao Liang*</b>, Yaoyuan Liang, Xinyi Tong, Shao-Lun Huang
       <br>
-      <em>Preprint 2023, </em> <a href="https://arxiv.org/pdf/2310.16676">[PAPER]</a> <a href="https://github.com/TaoShi1998/SSLCL">[Code]</a> 
+      <em>Preprint 2023, </em> <a href="https://arxiv.org/pdf/2310.16676">[Paper]</a> <a href="https://github.com/TaoShi1998/SSLCL">[Code]</a> 
       <br>
       <p> We introduce utilizing label representations by projecting discrete labels into dense embeddings for multimodal emotion classification.</p>
     </td>
@@ -106,7 +106,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       Jiawen Xie, Pengyu Cheng, <b>Xiao Liang</b>, Yong Dai, Nan Du
       <br>
-      <em>ACL 2024, </em> <a href="https://arxiv.org/pdf/2308.13191">[PAPER]</a> <a href="https://github.com/xjw-nlp/SimCAS">[Code]</a> 
+      <em>ACL 2024, </em> <a href="https://arxiv.org/pdf/2308.13191">[Paper]</a> <a href="https://github.com/xjw-nlp/SimCAS">[Code]</a> 
       <br>
       <p> We propose a token selection framework for pre-trained transformers to process long sequences utilizing reinforcement learning.</p>
     </td>
@@ -126,7 +126,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       <b>Xiao Liang*</b>, Tao Shi*, Yaoyuan Liang, Te Tao, Shao-Lun Huang
       <br>
-      <em>ICME 2024, </em> <a href="https://arxiv.org/pdf/2310.17189">[PAPER]</a> <a href="https://github.com/MasterVito/DiffusionVG">[Code]</a> 
+      <em>ICME 2024, </em> <a href="https://arxiv.org/pdf/2310.17189">[Paper]</a> <a href="https://github.com/MasterVito/DiffusionVG">[Code]</a> 
       <br>
       <p> We propose a novel framework with diffusion models that formulates video grounding as a conditioned generation task, enhancing predictions through iterative refinement.</p>
     </td>
@@ -142,7 +142,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       Yaoyuan Liang*, <b>Xiao Liang*</b>, Yansong Tang, Zhao Yang, Ziran Li, Jingang Wang, Wenbo Ding, Shao-Lun Huang
       <br>
-      <em>AAAI 2024, </em> <a href="https://ojs.aaai.org/index.php/AAAI/article/download/28118/28240">[PAPER]</a>
+      <em>AAAI 2024, </em> <a href="https://ojs.aaai.org/index.php/AAAI/article/download/28118/28240">[Paper]</a>
       <br>
       <p> We propose a framework of Comprehensive Space-Time entAnglement to densely entangle space-time multi-modal features for spatio-temporal localization.</p>
     </td>
@@ -161,7 +161,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       Yaoyuan Liang, Zhuojun Cai, Jian Xu, Guanbo Huang, Yiran Wang, <b>Xiao Liang</b>, Jiahao Liu, Ziran Li, Jingang Wang, Shao-Lun Huang
       <br>
-      <em>NeurIPS 2024, </em> <a href="https://github.com/MasterVito/MasterVito.github.io/raw/master/_publications/NIPS_2024_REG_hallu.pdf">[PAPER]</a>
+      <em>NeurIPS 2024, </em> <a href="https://github.com/MasterVito/MasterVito.github.io/raw/master/_publications/NIPS_2024_REG_hallu.pdf">[Paper]</a>
       <br>
       <p> We present to elicit the latent information in intermediate layers adopt a cycle-consistency-based decoding method to alleviate hallucinations in the REG task. </p>
     </td>
