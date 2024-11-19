@@ -40,7 +40,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       <b>Xiao Liang</b>, Xinyu Hu, Simiao Zuo, Jimi He, Yu Wang, Victor Ye Dong, Yeyun Gong, Kushal S. Dave, Yi Liu, Qiang Lou, Shao-Lun Huang, Jian Jiao
       <br>
-      <em>NeurIPS 2024 SafeGenAi, </em> <a href="https://github.com/MasterVito/MasterVito.github.io/raw/master/_publications/NIPS_WS_2024_Entity_Sum_CR.pdf">[Paper]</a>
+      <em>NeurIPS 2024 SafeGenAi, </em> <a href="https://openreview.net/pdf?id=LWz0kw3l0b">[Paper]</a>
       <br>
       <p> We introduce a framework for generating reliable AI-driven entity-aware summaries for information retrieval in the sponsored search ads domain.</p>
     </td>
@@ -161,7 +161,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
       <br>
       Yaoyuan Liang, Zhuojun Cai, Jian Xu, Guanbo Huang, Yiran Wang, <b>Xiao Liang</b>, Jiahao Liu, Ziran Li, Jingang Wang, Shao-Lun Huang
       <br>
-      <em>NeurIPS 2024, </em> <a href="https://github.com/MasterVito/MasterVito.github.io/raw/master/_publications/NIPS_2024_REG_hallu.pdf">[Paper]</a>
+      <em>NeurIPS 2024, </em> <a href="https://openreview.net/pdf?id=168NLzTpw8">[Paper]</a>
       <br>
       <p> We present to elicit the latent information in intermediate layers adopt a cycle-consistency-based decoding method to alleviate hallucinations in the REG task. </p>
     </td>
