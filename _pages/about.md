@@ -185,7 +185,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
 
 🏆Honors and Awards
 ======
-- Second Prize Scholarship, Tsinhua University, Beijing, 2023~2024
+- Second Prize Scholarship, Tsinhua University, Beijing, 2024
 - Outstanding Graduate Thesis, Sun Yat-sen University, Guangdong, 2022
 - Outstanding Graduate Student, Sun Yat-sen University, Guangdong, 2022
 - Second Prize Scholarship, Sun Yat-sen University, Guangdong, 2019~2022
