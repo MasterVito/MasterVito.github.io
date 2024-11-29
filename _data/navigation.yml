@@ -17,6 +17,10 @@ main:
   - title: "CV"
     url: /_pages/Xiao_Liang_CV.pdf
 
+  - title: "Research Statement"
+    url: /_pages/Xiao_Liang_Research_Statement.pdf
+
+
 # main:
 #   - title: "Publications"
 #     url: /publications/
