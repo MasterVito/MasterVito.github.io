@@ -140,7 +140,7 @@ I am excited to apply for Fall 2025 PhD programs and investigate potential colla
     <td width="75%" valign="center">
       <papertitle>CoSTA: End-to-End Comprehensive Space-Time Entanglement for Spatio-Temporal Video Grounding</papertitle>
       <br>
-      <b>Xiao Liang*</b>, Yaoyuan Liang*, Yansong Tang, Zhao Yang, Ziran Li, Jingang Wang, Wenbo Ding, Shao-Lun Huang
+      Yaoyuan Liang*, <b>Xiao Liang*</b>,  Yansong Tang, Zhao Yang, Ziran Li, Jingang Wang, Wenbo Ding, Shao-Lun Huang
       <br>
       <em>AAAI 2024, </em> <a href="https://ojs.aaai.org/index.php/AAAI/article/download/28118/28240">[Paper]</a>
       <br>
