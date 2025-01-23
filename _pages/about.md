@@ -123,7 +123,7 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <em>Preprint 2025, </em> <a href="https://arxiv.org/pdf/2501.11110">[Paper]</a>
       <br>
-      <p> We introduce a novel unified framework that integrates Natural Language Reasoning (NLR), Algorithmic Reasoning (AR), and Symbolic Reasoning (SR) to enable synergistic collaboration for LLMs. </p>
+      <p> We introduce a framework that integrates Natural Language Reasoning, Algorithmic Reasoning, and Symbolic Reasoning to enable synergistic collaboration for LLMs. </p>
     </td>
   </tr>
 
