@@ -56,7 +56,7 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       Yi Cheng, <b>Xiao Liang</b>, Yeyun Gong, Wen Xiao, Song Wang, Yuji Zhang, Wenjun Hou, Kaishuai Xu, Wenge Liu, Wenjie Li, Jian Jiao, Qi Chen, Peng Cheng, Wayne Xiong
       <br>
-      <em> Preprint 2024, </em> <a href="https://arxiv.org/abs/2410.01556">[Paper]</a>
+      <em> ICLR 2025, </em> <a href="https://arxiv.org/abs/2410.01556">[Paper]</a>
       <br>
       <p> This paper presents a self-consistency based decoding strategy for improving the factual accuracy of large language models, especially in long-form generation tasks.</p>
     </td>
@@ -108,6 +108,22 @@ My research interests lie at the intersection of generative models, large langua
       <em>ACL 2024, </em> <a href="https://arxiv.org/pdf/2308.13191">[Paper]</a> <a href="https://github.com/xjw-nlp/SimCAS">[Code]</a> 
       <br>
       <p> We propose a token selection framework for pre-trained transformers to process long sequences utilizing reinforcement learning.</p>
+    </td>
+  </tr>
+
+  <!--Chain of Reasoning-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/chain_of_reasoning.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>Chain-of-Reasoning: Towards Unified Mathematical Reasoning in Large Language Models via a Multi-Paradigm Perspective</papertitle>
+      <br>
+      Yiyao Yu, Yuxiang Zhang, Dongdong Zhang, <b>Xiao Liang</b>, Hengyuan Zhang, Xingxing Zhang, Ziyi Yang, Mahmoud Khademi, Hany Awadalla, Junjie Wang, Yujiu Yang, Furu Wei
+      <br>
+      <em>Preprint 2025, </em> <a href="https://arxiv.org/pdf/2501.11110">[Paper]</a>
+      <br>
+      <p> We introduce a novel unified framework that integrates Natural Language Reasoning (NLR), Algorithmic Reasoning (AR), and Symbolic Reasoning (SR) to enable synergistic collaboration for LLMs. </p>
     </td>
   </tr>
 
