@@ -127,6 +127,22 @@ My research interests lie at the intersection of generative models, large langua
     </td>
   </tr>
 
+  <!--Sigma-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/sigma.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>SIGMA: Differential Rescaling Of Query, Key And Value For Efficient Language Models</papertitle>
+      <br>
+      Microsoft Research Asia Artificial Intelligence Reasoning Group
+      <br>
+      <em>Preprint 2025, </em> <a href="https://arxiv.org/pdf/2501.11110">[Paper]</a>
+      <br>
+      <p> We introduce SIGMA, an efficient large language model specialized for the system domain, empowered by a novel architecture with efficient DiffQKV attention. </p>
+    </td>
+  </tr>
+
 </tbody></table>
 
 **Multimodal Understanding:**
@@ -174,7 +190,7 @@ My research interests lie at the intersection of generative models, large langua
     <td width="75%" valign="center">
       <papertitle>Unleash Region Understanding in Intermediate Layers for MLLM-based Referring Expression Generation </papertitle>
       <br>
-      Yaoyuan Liang, Zhuojun Cai, Jian Xu, Guanbo Huang, Yiran Wang, <b>Xiao Liang</b>, Jiahao Liu, Ziran Li, Jingang Wang, Shao-Lun Huang
+      Yaoyuan Liang, Zhuojun Cai, Jian Xu, Guanbo Huang, Yiran Wang, <b>Xiao Liang</b>, Jiahao Liu, Ziran Li, Jingang Wang, Shao-Lun Huang    
       <br>
       <em>NeurIPS 2024, </em> <a href="https://openreview.net/pdf?id=168NLzTpw8">[Paper]</a> <a href="https://github.com/Glupayy/unleash-eliminate">[Code]</a>
       <br>
