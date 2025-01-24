@@ -137,7 +137,7 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       Microsoft Research Asia Artificial Intelligence Reasoning Group
       <br>
-      <em>Preprint 2025, </em> <a href="https://arxiv.org/pdf/2501.11110">[Paper]</a>
+      <em>Preprint 2025, </em> <a href="https://arxiv.org/pdf/2501.13629">[Paper]</a>
       <br>
       <p> We introduce SIGMA, an efficient large language model specialized for the system domain, empowered by a novel architecture with efficient DiffQKV attention. </p>
     </td>
