@@ -8,10 +8,28 @@ redirect_from:
 ---
 
 
-I am a final-year Master's student in Data Science at Tsinghua University, advised by Prof. [Shao-Lun Huang](https://sites.google.com/view/slhuang/home). Before that, I earned my B.S. in Electronic Engineering from Sun Yat-sen University (SYSU) in 2022, under the guidance of Prof. [Yulan Guo](http://www.yulanguo.cn/). Currently I'm a research intern at Microsoft Research Asia, working with Dr. [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/), Dr. [Yelong Shen](https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en), and Dr. [Weizhu Chen](https://www.microsoft.com/en-us/research/people/wzchen/). 
 
-My research interests lie at the intersection of generative models, large language models (LLMs), and reinforcement learning. 
 
+<!-- I am a final-year Master's student in Data Science at Tsinghua University, advised by Prof. [Shao-Lun Huang](https://sites.google.com/view/slhuang/home). Before that, I earned my B.S. in Electronic Engineering from Sun Yat-sen University (SYSU) in 2022, under the guidance of Prof. [Yulan Guo](http://www.yulanguo.cn/). Currently I'm a research intern at Microsoft Research Asia, working with Dr. [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/), Dr. [Yelong Shen](https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en), and Dr. [Weizhu Chen](https://www.microsoft.com/en-us/research/people/wzchen/). 
+
+My research interests lie at the intersection of generative models, large language models (LLMs), and reinforcement learning.  -->
+
+
+<div style="text-align: justify;">
+  I am a final-year Master's student in Data Science at Tsinghua University, advised by Prof. 
+  <a href="https://sites.google.com/view/slhuang/home" target="_blank">Shao-Lun Huang</a>. 
+  Before that, I earned my B.S. in Electronic Engineering from Sun Yat-sen University (SYSU) in 2022, 
+  under the guidance of Prof. 
+  <a href="http://www.yulanguo.cn/" target="_blank">Yulan Guo</a>. 
+  Currently, I'm a research intern at Microsoft Research Asia, working with 
+  Dr. <a href="https://www.microsoft.com/en-us/research/people/yegong/" target="_blank">Yeyun Gong</a>, 
+  Dr. <a href="https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en" target="_blank">Yelong Shen</a>, 
+  and Dr. <a href="https://www.microsoft.com/en-us/research/people/wzchen/" target="_blank">Weizhu Chen</a>. 
+  <div style="margin-top: 6px;"></div>
+  My research interests lie at the intersection of generative models, large language models (LLMs), and reinforcement learning. 
+</div>
+
+<div style="margin-top: 15px;"></div>
 
 📖Education
 ======
@@ -21,7 +39,6 @@ My research interests lie at the intersection of generative models, large langua
 - **Sep. 2018 - Jun. 2022** B.Sc., Electronic Information Science and Technology, Sun Yat-sen University, Guangzhou, China.
 <br>*GPA: 4.11/5.0, Top 3%*
 
-  
 
 📑Publications
 ======
