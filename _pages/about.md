@@ -8,11 +8,10 @@ redirect_from:
 ---
 
 
-I am a final-year Master's student in Data Science at Tsinghua University, advised by Prof. [Shao-Lun Huang](https://sites.google.com/view/slhuang/home). Before that, I earned my B.S. in Electronic Engineering from Sun Yat-sen University (SYSU) in 2022, under the guidance of Prof. [Yulan Guo](http://www.yulanguo.cn/). Currently I'm a research intern at Microsoft Research Asia, working with Dr. [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/). I also interned at Tencent AI Lab, collaborating with Dr. [Pengyu Cheng](https://linear95.github.io/). 
+I am a final-year Master's student in Data Science at Tsinghua University, advised by Prof. [Shao-Lun Huang](https://sites.google.com/view/slhuang/home). Before that, I earned my B.S. in Electronic Engineering from Sun Yat-sen University (SYSU) in 2022, under the guidance of Prof. [Yulan Guo](http://www.yulanguo.cn/). Currently I'm a research intern at Microsoft Research Asia, working with Dr. [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/) and Dr [Weizhu Chen](https://www.microsoft.com/en-us/research/people/wzchen/). 
 
-My research interests lie at the intersection of generative models, large language models (LLMs), and reinforcement learning, with a long-term aim at AGI. 
+My research interests lie at the intersection of generative models, large language models (LLMs), and reinforcement learning. 
 
-  
 
 📖Education
 ======
@@ -208,7 +207,7 @@ My research interests lie at the intersection of generative models, large langua
 🧑‍💻Experience
 ======
 - (Nov. 2023 - Present) Reserch Intern, NLC Group, Microsoft Research Asia, Beijing, China.
-<br> Mentor: [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/)
+<br> Mentor: [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/), [Weizhu Chen](https://www.microsoft.com/en-us/research/people/wzchen/)
 <br> Working on large language models, pre-training strategy and model architecture.
 
 - (Mar. 2023 - Sep. 2023) Research Intern, AI Lab, Tencent Inc., Guangdong, China.
