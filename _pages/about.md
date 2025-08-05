@@ -24,7 +24,7 @@ My research interests lie at the intersection of generative models, large langua
   Dr. <a href="https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en" target="_blank">Yelong Shen</a>, 
   and Dr. <a href="https://www.microsoft.com/en-us/research/people/wzchen/" target="_blank">Weizhu Chen</a>. 
   My research interests lie at the intersection of generative models, large language models (LLMs), and reinforcement learning. 
-  <div style="margin-top: 6px;"></div>; 
+  <div style="margin-top: 6px;"></div>
 </div>
 
 <div style="margin-top: 15px;"></div>
