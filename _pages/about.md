@@ -16,11 +16,9 @@ My research interests lie at the intersection of generative models, large langua
 
 
 <div style="text-align: justify;">
-  I am a final-year Master's student in Data Science at Tsinghua University, advised by Prof. 
-  <a href="https://sites.google.com/view/slhuang/home" target="_blank">Shao-Lun Huang</a>. 
-  Before that, I earned my B.S. in Electronic Engineering from Sun Yat-sen University (SYSU) in 2022, 
-  under the guidance of Prof. 
-  <a href="http://www.yulanguo.cn/" target="_blank">Yulan Guo</a>. 
+  I am a first year Statistics and Data Science PhD student at UCLA, advised by Prof. 
+  <a href="https://web.cs.ucla.edu/~kwchang/" target="_blank">Kai-Wei Chang</a> and Prof. <a href="http://www.stat.ucla.edu/~ywu/me.html" target="_blank">Ying Nian Wu</a>. 
+  Before that, I earned my M.S. in Data Science from Tsinghua University and B.S. in Electronic Engineering from Sun Yat-sen University (SYSU).
   Currently, I'm a research intern at Microsoft Research Asia, working with 
   Dr. <a href="https://www.microsoft.com/en-us/research/people/yegong/" target="_blank">Yeyun Gong</a>, 
   Dr. <a href="https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en" target="_blank">Yelong Shen</a>, 
@@ -234,6 +232,7 @@ My research interests lie at the intersection of generative models, large langua
 
 🏆Honors and Awards
 ======
+- Outstanding Master Graduate Thesis, Tsinghua University, Beijing, 2025
 - Second Prize Scholarship, Tsinhua University, Beijing, 2024
 - Outstanding Graduate Thesis, Sun Yat-sen University, Guangdong, 2022
 - Outstanding Graduate Student, Sun Yat-sen University, Guangdong, 2022
