@@ -19,7 +19,7 @@ My research interests lie at the intersection of generative models, large langua
   I am a first year Statistics and Data Science PhD student at UCLA, advised by Prof. 
   <a href="https://web.cs.ucla.edu/~kwchang/" target="_blank">Kai-Wei Chang</a> and Prof. <a href="http://www.stat.ucla.edu/~ywu/me.html" target="_blank">Ying Nian Wu</a>. 
   Before that, I earned my M.S. in Data Science from Tsinghua University and B.S. in Electronic Engineering from Sun Yat-sen University (SYSU).
-  Currently, I'm a research intern at Microsoft Research Asia, working with 
+  Currently, I'm a research intern at Microsoft Research, working with 
   Dr. <a href="https://www.microsoft.com/en-us/research/people/yegong/" target="_blank">Yeyun Gong</a>, 
   Dr. <a href="https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en" target="_blank">Yelong Shen</a>, 
   and Dr. <a href="https://www.microsoft.com/en-us/research/people/wzchen/" target="_blank">Weizhu Chen</a>. 
