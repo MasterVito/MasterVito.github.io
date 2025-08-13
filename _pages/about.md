@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 
-
-
 <!-- I am a final-year Master's student in Data Science at Tsinghua University, advised by Prof. [Shao-Lun Huang](https://sites.google.com/view/slhuang/home). Before that, I earned my B.S. in Electronic Engineering from Sun Yat-sen University (SYSU) in 2022, under the guidance of Prof. [Yulan Guo](http://www.yulanguo.cn/). Currently I'm a research intern at Microsoft Research Asia, working with Dr. [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/), Dr. [Yelong Shen](https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en), and Dr. [Weizhu Chen](https://www.microsoft.com/en-us/research/people/wzchen/). 
 
 My research interests lie at the intersection of generative models, large language models (LLMs), and reinforcement learning.  -->
@@ -31,7 +29,9 @@ My research interests lie at the intersection of generative models, large langua
 
 📖Education
 ======
-- **Aug. 2022 - Jun. 2025 (Expected)** M.Sc., Data Science and Information Technology, Tsinghua University, Beijing, China.
+- **Sep. 2025 - Jun. 2030 (Expected)** Ph.D, Statistics and Data Science, UCLA, California, U.S.
+
+- **Aug. 2022 - Jun. 2025** M.Sc., Data Science and Information Technology, Tsinghua University, Beijing, China.
 <br>*GPA: 3.98/4.0, Top 3%*
 
 - **Sep. 2018 - Jun. 2022** B.Sc., Electronic Information Science and Technology, Sun Yat-sen University, Guangzhou, China.
