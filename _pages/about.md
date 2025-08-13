@@ -29,7 +29,7 @@ My research interests lie at the intersection of generative models, large langua
 
 📖Education
 ======
-- **Sep. 2025 - Jun. 2030 (Expected)** Ph.D, Statistics and Data Science, UCLA, California, USA.
+- **Sep. 2025 - Jun. 2030 (Expected)** Ph.D., Statistics and Data Science, University of California, Los Angeles, USA
 
 - **Aug. 2022 - Jun. 2025** M.Sc., Data Science and Information Technology, Tsinghua University, Beijing, China.
 <br>*GPA: 3.98/4.0, Top 3%*
