@@ -38,13 +38,61 @@ My research interests lie at the intersection of generative models, large langua
 <br>*GPA: 4.11/5.0, Top 3%*
 
 
-📑Publications
+📑Selected Publications
 ======
 **Language Modeling:**
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" border="1" cellspacing="0" cellpadding="10"><tbody>	
 
-  <!--Entity Sum-->
+  <!--SvS-->
   <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/svs.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>Beyond Pass@1: Self-Play With Variational Problem Synthesis Sustains RLVR</papertitle>
+      <br>
+      <b>Xiao Liang*</b>, Zhong-Zhi Li*, Yeyun Gong, Yelong Shen, Ying Nian Wu, Zhijiang Guo, Weizhu Chen
+      <br>
+      <em>Preprint 2025, </em> <a href="https://mastervito.github.io/">[Paper]</a>
+      <br>
+      <p> We propose an online Self-play with Variational Problem Synthesis strategy for RLVR training that iteratively leverages model responses to synthesize variational problems for augmentation.</p>
+    </td>
+  </tr>	
+
+  <!--SwS-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/sws.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning</papertitle>
+      <br>
+      <b>Xiao Liang*</b>, Zhong-Zhi Li*, Yeyun Gong, Yang Wang, Hengyuan Zhang, Yelong Shen, Ying Nian Wu, Weizhu Chen
+      <br>
+      <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2506.08989">[Paper]</a> <a href="https://github.com/MasterVito/SwS">[Code]</a>
+      <br>
+      <p> We introduce a Self-aware Weakness-driven problem Synthesis framework that systematically identifies and leverages model weaknesses for problem augmentation in RLVR.</p>
+    </td>
+  </tr>	
+
+  <!--TL;DR-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/tldr.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>TL; DR: Too Long, Do Re-weighting for Effcient LLM Reasoning Compression</papertitle>
+      <br>
+      Zhong-Zhi Li*, <b>Xiao Liang*</b>, Zihao Tang, Lei Ji, Peijie Wang, Haotian Xu, Xing W, Haizhen Huang, Weiwei Deng, Yeyun Gong, Zhijiang Guo, Xiao Liu, Fei Yin, Cheng-Lin Liu
+      <br>
+      <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2506.02678">[Paper]</a> <a href="https://github.com/zzli2022/TLDR">[Code]</a>
+      <br>
+      <p> We propose a dynamic ratio-based training pipeline that balances the model’s System-1 and System-2 data to reduce redundant reasoning.</p>
+    </td>
+  </tr>	
+
+  <!--Entity Sum-->
+  <!-- <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
       <img style="width:100%;max-width:100%" src="../images/Entity_sum.png" alt="dise">
     </td>
@@ -57,7 +105,7 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <p> We introduce a framework for generating reliable AI-driven entity-aware summaries for information retrieval in the sponsored search ads domain.</p>
     </td>
-  </tr>	
+  </tr>	 -->
 
 
   <!--Integrative Decoding-->
@@ -94,7 +142,7 @@ My research interests lie at the intersection of generative models, large langua
   </tr>	
 
   <!--SSLCL-->
-  <tr>
+  <!-- <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
       <img style="width:100%;max-width:100%" src="../images/sslcl.png" alt="dise">
     </td>
@@ -107,7 +155,7 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <p> We introduce utilizing label representations by projecting discrete labels into dense embeddings for multimodal emotion classification.</p>
     </td>
-  </tr>	
+  </tr>	 -->
 
   <!--SimCAS-->
   <tr>
@@ -135,14 +183,14 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       Yiyao Yu, Yuxiang Zhang, Dongdong Zhang, <b>Xiao Liang</b>, Hengyuan Zhang, Xingxing Zhang, Ziyi Yang, Mahmoud Khademi, Hany Awadalla, Junjie Wang, Yujiu Yang, Furu Wei
       <br>
-      <em>Preprint 2025, </em> <a href="https://arxiv.org/pdf/2501.11110">[Paper]</a>
+      <em>ACL 2025, </em> <a href="https://arxiv.org/pdf/2501.11110">[Paper]</a>
       <br>
       <p> We introduce a framework that integrates Natural Language Reasoning, Algorithmic Reasoning, and Symbolic Reasoning to enable synergistic collaboration for LLMs. </p>
     </td>
   </tr>
 
   <!--Sigma-->
-  <tr>
+  <!-- <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
       <img style="width:100%;max-width:100%" src="../images/sigma.png" alt="dise">
     </td>
@@ -155,14 +203,14 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <p> We introduce SIGMA, an efficient large language model specialized for the system domain, empowered by a novel architecture with efficient DiffQKV attention. </p>
     </td>
-  </tr>
+  </tr> -->
 
 </tbody></table>
 
-**Multimodal Understanding:**
+<!-- **Multimodal Understanding:**
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" border="1" cellspacing="0" cellpadding="10"><tbody>	
   <!--DiffusionVG-->
-  <tr>
+  <!-- <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
       <img style="width:100%;max-width:100%" src="../images/diffusionvg.png" alt="dise">
     </td>
@@ -175,10 +223,10 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <p> We propose a novel framework with diffusion models that formulates video grounding as a conditioned generation task, enhancing predictions through iterative refinement.</p>
     </td>
-  </tr>	
+  </tr>	 -->
 
   <!--CoSTA-->
-  <tr>
+  <!-- <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
       <img style="width:100%;max-width:100%" src="../images/costa.png" alt="dise">
     </td>
@@ -193,11 +241,11 @@ My research interests lie at the intersection of generative models, large langua
     </td>
   </tr>	
 
-
+ -->
 
 
   <!--unleash-then-eliminate-->
-  <tr>
+  <!-- <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
       <img style="width:100%;max-width:100%" src="../images/unleash-then-eliminate.png" alt="dise">
     </td>
@@ -210,7 +258,7 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <p> We present to elicit the latent information in intermediate layers adopt a cycle-consistency-based decoding method to alleviate hallucinations in the REG task. </p>
     </td>
-  </tr>
+  </tr> --> -->
 </tbody></table>
 
 
