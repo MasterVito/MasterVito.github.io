@@ -44,7 +44,7 @@ My research interests lie at the intersection of generative models, large langua
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" border="1" cellspacing="0" cellpadding="10"><tbody>	
 
   <!--SvS-->
-  <tr>
+  <!-- <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
       <img style="width:100%;max-width:100%" src="../images/svs.png" alt="dise">
     </td>
@@ -57,7 +57,7 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <p> We propose an online Self-play with Variational Problem Synthesis strategy for RLVR training that iteratively leverages model responses to synthesize variational problems for augmentation.</p>
     </td>
-  </tr>	
+  </tr>	 -->
 
   <!--SwS-->
   <tr>
@@ -258,8 +258,8 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <p> We present to elicit the latent information in intermediate layers adopt a cycle-consistency-based decoding method to alleviate hallucinations in the REG task. </p>
     </td>
-  </tr> --> -->
-</tbody></table>
+  </tr> --> 
+<!-- </tbody></table> -->
 
 
 
