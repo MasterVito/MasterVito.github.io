@@ -70,7 +70,7 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2506.08989">[Paper]</a> <a href="https://github.com/MasterVito/SwS">[Code]</a>
       <br>
-      <p> We introduce a Self-aware Weakness-driven problem Synthesis framework that systematically identifies and leverages model weaknesses for problem augmentation in RLVR.</p>
+      <p> We introduce a Self-aware Weakness-driven problem Synthesis framework that identifies and leverages model weaknesses for problem augmentation in RLVR.</p>
     </td>
   </tr>	
 
@@ -87,6 +87,22 @@ My research interests lie at the intersection of generative models, large langua
       <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2506.02678">[Paper]</a> <a href="https://github.com/zzli2022/TLDR">[Code]</a>
       <br>
       <p> We propose a dynamic ratio-based training pipeline that balances the model’s System-1 and System-2 data to reduce redundant reasoning.</p>
+    </td>
+  </tr>	
+
+  <!--CoT-Acc-Shun-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/tldr.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs</papertitle>
+      <br>
+      Xumeng Wen*, Zihan Liu*, Shun Zheng*, Zhijian Xu, Shengyu Ye, Zhirong Wu, <b>Xiao Liang*</b>, Yang Wang, Junjie Li, Ziming Miao, Jiang Bian, Mao Yang
+      <br>
+      <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2506.14245">[Paper]</a>
+      <br>
+      <p> We introduce a stricter reasoning-aware metric than pass@k and a supporting theoretical foundation to show that RLVR uniquely incentivizes logically consistent reasoning and generalizes across tasks.</p>
     </td>
   </tr>	
 
