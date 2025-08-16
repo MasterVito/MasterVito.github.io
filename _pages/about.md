@@ -239,10 +239,7 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <p> We propose a framework of Comprehensive Space-Time entAnglement to densely entangle space-time multi-modal features for spatio-temporal localization.</p>
     </td>
-  </tr>	
-
- -->
-
+  </tr>	 -->
 
   <!--unleash-then-eliminate-->
   <!-- <tr>
