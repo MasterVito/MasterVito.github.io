@@ -40,7 +40,6 @@ My research interests lie at the intersection of generative models, large langua
 
 📑Selected Publications
 ======
-**Language Modeling:**
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" border="1" cellspacing="0" cellpadding="10"><tbody>	
 
   <!--SvS-->
