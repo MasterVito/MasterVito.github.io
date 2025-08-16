@@ -93,7 +93,7 @@ My research interests lie at the intersection of generative models, large langua
   <!--CoT-Acc-Shun-->
   <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
-      <img style="width:100%;max-width:100%" src="../images/tldr.png" alt="dise">
+      <img style="width:100%;max-width:100%" src="../images/cot-pass@k.png" alt="dise">
     </td>
     <td width="75%" valign="center">
       <papertitle>Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs</papertitle>
