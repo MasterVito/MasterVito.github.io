@@ -82,7 +82,7 @@ My research interests lie at the intersection of generative models, large langua
     <td width="75%" valign="center">
       <papertitle>TL; DR: Too Long, Do Re-weighting for Effcient LLM Reasoning Compression</papertitle>
       <br>
-      Zhong-Zhi Li*, <b>Xiao Liang*</b>, Zihao Tang, Lei Ji, Peijie Wang, Haotian Xu, Xing W, Haizhen Huang, Weiwei Deng, Yeyun Gong, Zhijiang Guo, Xiao Liu, Fei Yin, Cheng-Lin Liu
+      Zhong-Zhi Li*, <b>Xiao Liang*</b>, Zihao Tang, Lei Ji, Peijie Wang, Haotian Xu, Xing W, Haizhen Huang, Weiwei Deng, Yeyun Gong, Ying Nian Wu, Zhijiang Guo, Xiao Liu, Fei Yin, Cheng-Lin Liu
       <br>
       <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2506.02678">[Paper]</a> <a href="https://github.com/zzli2022/TLDR">[Code]</a>
       <br>
