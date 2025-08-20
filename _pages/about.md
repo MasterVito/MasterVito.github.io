@@ -98,7 +98,7 @@ My research interests lie at the intersection of generative models, large langua
     <td width="75%" valign="center">
       <papertitle>Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs</papertitle>
       <br>
-      Xumeng Wen*, Zihan Liu*, Shun Zheng*, Zhijian Xu, Shengyu Ye, Zhirong Wu, <b>Xiao Liang*</b>, Yang Wang, Junjie Li, Ziming Miao, Jiang Bian, Mao Yang
+      Xumeng Wen*, Zihan Liu*, Shun Zheng*, Zhijian Xu, Shengyu Ye, Zhirong Wu, <b>Xiao Liang</b>, Yang Wang, Junjie Li, Ziming Miao, Jiang Bian, Mao Yang
       <br>
       <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2506.14245">[Paper]</a>
       <br>
