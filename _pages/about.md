@@ -283,7 +283,7 @@ My research interests lie at the intersection of generative models, large langua
 ======
 - (Nov. 2023 - Aug. 2025) Reserch Intern, NLC Group, Microsoft Research Asia, Beijing, China.
 <br> Mentor: [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/), [Weizhu Chen](https://www.microsoft.com/en-us/research/people/wzchen/)
-<br> Working on large language models, pre-training strategy and model architecture.
+<br> Working on LLM reasoning, pre-training and reinforcement learning.
 
 - (Mar. 2023 - Sep. 2023) Research Intern, AI Lab, Tencent Inc., Guangdong, China.
 <br> Mentor: [Pengyu Cheng](https://linear95.github.io/), [Nan Du](https://scholar.google.com/citations?hl=en&user=BO4jEkAAAAAJ)
