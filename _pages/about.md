@@ -292,6 +292,7 @@ My research interests lie at the intersection of generative models, large langua
 
 🏆Honors and Awards
 ======
+- Graduate Dean’s Scholar Award (GDSA, Amount: $14,500), UCLA, California, 2025
 - Outstanding Master Graduate Thesis, Tsinghua University, Beijing, 2025
 - Second Prize Scholarship, Tsinhua University, Beijing, 2024
 - Outstanding Graduate Thesis, Sun Yat-sen University, Guangdong, 2022
