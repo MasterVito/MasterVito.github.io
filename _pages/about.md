@@ -43,7 +43,7 @@ My research interests lie at the intersection of generative models, large langua
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" border="1" cellspacing="0" cellpadding="10"><tbody>	
 
   <!--SvS-->
-  <!-- <tr>
+  <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
       <img style="width:100%;max-width:100%" src="../images/svs.png" alt="dise">
     </td>
@@ -52,11 +52,11 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <b>Xiao Liang*</b>, Zhong-Zhi Li*, Yeyun Gong, Yelong Shen, Ying Nian Wu, Zhijiang Guo, Weizhu Chen
       <br>
-      <em>Preprint 2025, </em> <a href="https://mastervito.github.io/">[Paper]</a>
+      <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2508.14029">[Paper]</a> <a href="https://github.com/MasterVito/SvS">[Code]</a> <a href="https://MasterVito.SvS.github.io">[Page]</a>
       <br>
       <p> We propose an online Self-play with Variational Problem Synthesis strategy for RLVR training that iteratively leverages model responses to synthesize variational problems for augmentation.</p>
     </td>
-  </tr>	 -->
+  </tr>	
 
   <!--SwS-->
   <tr>
@@ -68,7 +68,7 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <b>Xiao Liang*</b>, Zhong-Zhi Li*, Yeyun Gong, Yang Wang, Hengyuan Zhang, Yelong Shen, Ying Nian Wu, Weizhu Chen
       <br>
-      <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2506.08989">[Paper]</a> <a href="https://github.com/MasterVito/SwS">[Code]</a>
+      <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2506.08989">[Paper]</a> <a href="https://github.com/MasterVito/SwS">[Code]</a> <a href="https://mastervito.github.io/MasterVito.SwS.github.io/">[Page]</a>
       <br>
       <p> We introduce a Self-aware Weakness-driven problem Synthesis framework that identifies and leverages model weaknesses for problem augmentation in RLVR.</p>
     </td>
