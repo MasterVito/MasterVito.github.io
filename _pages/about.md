@@ -52,7 +52,7 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <b>Xiao Liang*</b>, Zhong-Zhi Li*, Yeyun Gong, Yelong Shen, Ying Nian Wu, Zhijiang Guo, Weizhu Chen
       <br>
-      <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2508.14029">[Paper]</a> <a href="https://github.com/MasterVito/SvS">[Code]</a> <a href="https://MasterVito.SvS.github.io">[Page]</a>
+      <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2508.14029">[Paper]</a> <a href="https://github.com/MasterVito/SvS">[Code]</a> <a href="https://mastervito.github.io/SvS.github.io/">[Page]</a>
       <br>
       <p> We propose an online Self-play with Variational Problem Synthesis strategy for RLVR training that iteratively leverages model responses to synthesize variational problems for augmentation.</p>
     </td>
