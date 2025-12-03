@@ -1,4 +1,4 @@
----
+ww'w'w'w---
 permalink: /
 title: "👋About Me"
 author_profile: true
@@ -71,6 +71,22 @@ My research interests lie at the intersection of generative models, large langua
       <em>NeurIPS 2025, </em> <a href="https://arxiv.org/abs/2506.08989">[Paper]</a> <a href="https://github.com/MasterVito/SwS">[Code]</a> <a href="https://mastervito.github.io/MasterVito.SwS.github.io/">[Page]</a>
       <br>
       <p> We introduce a Self-aware Weakness-driven problem Synthesis framework that identifies and leverages model weaknesses for problem augmentation in RLVR.</p>
+    </td>
+  </tr>	
+
+  <!--HAGeo-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/HAGeo.png" alt="dise">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning</papertitle>
+      <br>
+      Boyan Duan, <b>Xiao Liang</b>, Shuai Lu, Yaoxiang Wang, Yelong Shen, Kai-Wei Chang, Ying Nian Wu, Mao Yang, Weizhu Chen, Yeyun Gong
+      <br>
+      <em>Preprint 2025, </em> <a href="https://arxiv.org/abs/2512.00097">[Paper]</a> <a href="https://github.com/boduan1/HAGeo">[Code]</a> <a href="https://huggingface.co/datasets/HAGeo-IMO/HAGeo-409">[Benchmark]</a>
+      <br>
+      <p> we present a highly efficient method for geometry theorem proving that runs entirely on CPUs that achieves gold-medal human performance on IMO-level problems.</p>
     </td>
   </tr>	
 
