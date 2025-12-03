@@ -1,4 +1,4 @@
-ww'w'w'w---
+---
 permalink: /
 title: "👋About Me"
 author_profile: true
@@ -75,7 +75,7 @@ My research interests lie at the intersection of generative models, large langua
   </tr>	
 
   <!--HAGeo-->
-  <!-- <tr>
+  <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
       <img style="width:100%;max-width:100%" src="../images/HAGeo.png" alt="dise">
     </td>
@@ -88,7 +88,7 @@ My research interests lie at the intersection of generative models, large langua
       <br>
       <p> we present a highly efficient method for geometry theorem proving that runs entirely on CPUs that achieves gold-medal human performance on IMO-level problems.</p>
     </td>
-  </tr>	 -->
+  </tr>	
 
   <!--TL;DR-->
   <tr>
