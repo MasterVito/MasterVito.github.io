@@ -80,7 +80,7 @@ My research interests lie at the intersection of generative models, large langua
       <img style="width:100%;max-width:100%" src="../images/HAGeo.png" alt="dise">
     </td>
     <td width="75%" valign="center">
-      <papertitle>SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning</papertitle>
+      <papertitle>Gold-Medal-Level Olympiad Geometry Solving with Efficient Heuristic Auxiliary Constructions</papertitle>
       <br>
       Boyan Duan, <b>Xiao Liang</b>, Shuai Lu, Yaoxiang Wang, Yelong Shen, Kai-Wei Chang, Ying Nian Wu, Mao Yang, Weizhu Chen, Yeyun Gong
       <br>
