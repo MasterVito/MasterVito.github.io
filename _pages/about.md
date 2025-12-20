@@ -195,7 +195,7 @@ We introduce a unified framework that integrates natural language, algorithmic, 
 
 # 🧑‍💻 Experience
 - (Nov. 2023 - Present) Reserch Intern, Microsoft Research & CoreAI.
-<br> Mentor: [Yeyun Gong](https://scholar.google.com/citations?user=piUkwMYAAAAJ\&hl=en), [Yelong Shen](https://scholar.google.com/citations?user=S6OFEFEAAAAJ\&hl=en), [Weizhu Chen](https://scholar.google.com/citations?user=LG_E-4EAAAAJ\&hl=en)
+<br> Mentor: [Yeyun Gong](https://scholar.google.com/citations?user=piUkwMYAAAAJ&hl=en), [Yelong Shen](https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en), [Weizhu Chen](https://scholar.google.com/citations?user=LG_E-4EAAAAJ&hl=en)
 <br> Working on LLM reasoning, pre-training and reinforcement learning.
 
 - (Mar. 2023 - Sep. 2023) Research Intern, AI Lab, Tencent Inc., Guangdong, China.
