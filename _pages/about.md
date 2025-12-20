@@ -37,18 +37,12 @@ redirect_from:
 - *2024.09*: &nbsp; 🎉 Our paper [TRAIT](https://arxiv.org/pdf/2406.16694) has been accepted by EMNLP 2024.
 - *2024.05*: &nbsp; 🎉 Our paper [SimCAS](https://aclanthology.org/2024.acl-long.729/) has been accepted by ACL 2024.
 
-
 <div style="margin-top: 15px;"></div>
 
-# 🧑‍💻 Experience
-- (Nov. 2023 - Present) Reserch Intern, NLC Group, Microsoft Research, Beijing, China.
-<br> Mentor: [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/), [Weizhu Chen](https://www.microsoft.com/en-us/research/people/wzchen/)
-<br> Working on LLM reasoning, pre-training and reinforcement learning.
-
-- (Mar. 2023 - Sep. 2023) Research Intern, AI Lab, Tencent Inc., Guangdong, China.
-<br> Mentor: [Pengyu Cheng](https://linear95.github.io/)
-<br> Working on large language models, long sequence processing.
-
+# 📖 Education
+- **Sep. 2025 - Jun. 2029 (Expected)** Ph.D., Statistics and Data Science, University of California, Los Angeles, USA
+- **Aug. 2022 - Jun. 2025** M.Sc., Data Science and Information Technology, Tsinghua University, Beijing, China.
+- **Sep. 2018 - Jun. 2022** B.Sc., Electronic Information Science and Technology, Sun Yat-sen University, Guangzhou, China.
 
 <div style="margin-top: 15px;"></div>
 
@@ -197,6 +191,16 @@ Yiyao Yu, Yuxiang Zhang, Dongdong Zhang, **Xiao Liang**, Hengyuan Zhang, Xingxin
 We introduce a unified framework that integrates natural language, algorithmic, and symbolic reasoning for mathematical problem solving.
 </div></div>
 
+<div style="margin-top: 15px;"></div>
+
+# 🧑‍💻 Experience
+- (Nov. 2023 - Present) Reserch Intern, NLC Group, Microsoft Research, Beijing, China.
+<br> Mentor: [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/), [Weizhu Chen](https://www.microsoft.com/en-us/research/people/wzchen/)
+<br> Working on LLM reasoning, pre-training and reinforcement learning.
+
+- (Mar. 2023 - Sep. 2023) Research Intern, AI Lab, Tencent Inc., Guangdong, China.
+<br> Mentor: [Pengyu Cheng](https://linear95.github.io/)
+<br> Working on large language models, long sequence processing.
 
 <div style="margin-top: 15px;"></div>
 
@@ -210,9 +214,3 @@ We introduce a unified framework that integrates natural language, algorithmic, 
 - Second Prize Scholarship, Sun Yat-sen University, Guangdong, 2019~2022
 - 1st of the 2022 Tsinghua Open Hack Competition - Multimodal Learning Track, Tsinghua University, Beijing, 2022
 
-<div style="margin-top: 15px;"></div>
-
-# 📖 Education
-- **Sep. 2025 - Jun. 2029 (Expected)** Ph.D., Statistics and Data Science, University of California, Los Angeles, USA
-- **Aug. 2022 - Jun. 2025** M.Sc., Data Science and Information Technology, Tsinghua University, Beijing, China.
-- **Sep. 2018 - Jun. 2022** B.Sc., Electronic Information Science and Technology, Sun Yat-sen University, Guangzhou, China.
