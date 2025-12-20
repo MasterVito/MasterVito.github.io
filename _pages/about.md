@@ -31,11 +31,7 @@ redirect_from:
 - *2025.09*: &nbsp; 🎉 Our paper [GuiLoMo](https://arxiv.org/abs/2506.14646) has been accepted by EMNLP 2025.
 - *2025.09*: &nbsp; 🎓️ Start my PhD research journey at UCLA.
 - *2025.05*: &nbsp; 🎓 Graduated from my Master’s program at Tsinghua University. Thanks to all my advisors and friends!
-- *2025.05*: &nbsp; 🎉 Our paper [Chain-of-Reasoning](https://aclanthology.org/2025.acl-long.1213/) has been accepted by ACL 2025.
-- *2025.01*: &nbsp; 🎉 Our paper [Integrative Decoding](https://arxiv.org/abs/2410.01556) has been accepted by ICLR 2025.
-- *2024.10*: &nbsp; 🎉 Our paper [Unleash-then-Eliminate](https://proceedings.neurips.cc/paper_files/paper/2024/hash/da76884a4e003ad0de97804ec4578e5b-Abstract-Conference.html) has been accepted by Neurips 2024.
-- *2024.09*: &nbsp; 🎉 Our paper [TRAIT](https://arxiv.org/pdf/2406.16694) has been accepted by EMNLP 2024.
-- *2024.05*: &nbsp; 🎉 Our paper [SimCAS](https://aclanthology.org/2024.acl-long.729/) has been accepted by ACL 2024.
+
 
 <div style="margin-top: 15px;"></div>
 
