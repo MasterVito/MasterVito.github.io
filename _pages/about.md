@@ -194,7 +194,7 @@ We introduce a unified framework that integrates natural language, algorithmic, 
 <div style="margin-top: 15px;"></div>
 
 # 🧑‍💻 Experience
-- (Nov. 2023 - Present) Reserch Intern, NLC Group, Microsoft Research, Beijing, China.
+- (Nov. 2023 - Present) Reserch Intern, Microsoft Research & CoreAI, Beijing, China.
 <br> Mentor: [Yeyun Gong](https://www.microsoft.com/en-us/research/people/yegong/), [Weizhu Chen](https://www.microsoft.com/en-us/research/people/wzchen/)
 <br> Working on LLM reasoning, pre-training and reinforcement learning.
 
