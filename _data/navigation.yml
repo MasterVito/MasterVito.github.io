@@ -6,6 +6,9 @@ main:
   - title: "News"
     url: "/#-news"
 
+  - title: "Educations"
+    url: "/#-education"
+
   - title: "Publications"
     url: "/#-selected-publications"
 
@@ -14,9 +17,6 @@ main:
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-education"
 
   - title: "CV"
     url: "/_pages/Xiao_Liang_CV.pdf"
