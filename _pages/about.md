@@ -27,7 +27,7 @@ redirect_from:
 <div style="margin-top: 15px;"></div>
 
 # 🔥 News
-- *2025.09*: &nbsp; 🎉 Two papers [SvS](https://arxiv.org/abs/2506.14245) and [RLVR Incentivizes Correct Reasoning](https://arxiv.org/abs/2506.14245) have been accepted by ICLR 2026.
+- *2025.09*: &nbsp; 🎉 Two papers [SvS](https://arxiv.org/abs/2508.14029) and [RLVR Incentivizes Correct Reasoning](https://arxiv.org/abs/2506.14245) have been accepted by ICLR 2026.
 - *2025.09*: &nbsp; 🎉 Our paper [SwS](https://arxiv.org/abs/2506.08989) has been accepted by Neurips 2025.
 - *2025.09*: &nbsp; 🎉 Our paper [GuiLoMo](https://arxiv.org/abs/2506.14646) has been accepted by EMNLP 2025.
 - *2025.09*: &nbsp; 🎓️ Start my PhD research journey at UCLA.
