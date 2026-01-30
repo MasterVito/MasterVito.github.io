@@ -27,6 +27,7 @@ redirect_from:
 <div style="margin-top: 15px;"></div>
 
 # 🔥 News
+- *2025.09*: &nbsp; 🎉 Two papers [SvS](https://arxiv.org/abs/2506.14245) and [RLVR Incentivizes Correct Reasoning](https://arxiv.org/abs/2506.14245) has been accepted by ICLR 2026.
 - *2025.09*: &nbsp; 🎉 Our paper [SwS](https://arxiv.org/abs/2506.08989) has been accepted by Neurips 2025.
 - *2025.09*: &nbsp; 🎉 Our paper [GuiLoMo](https://arxiv.org/abs/2506.14646) has been accepted by EMNLP 2025.
 - *2025.09*: &nbsp; 🎓️ Start my PhD research journey at UCLA.
@@ -63,7 +64,7 @@ We propose an online Self-play with Variational Problem Synthesis strategy for R
 
 <!-- ====================== SwS ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">NeurIPS 2025</div>
+  <div class="badge">ICLR 2026</div>
   <img src='images/sws.png' alt="SwS" width="100%">
 </div></div>
 <div class='paper-box-text' markdown="1">
@@ -113,7 +114,7 @@ We propose a dynamic ratio-based training pipeline that balances System-1 and Sy
 
 <!-- ====================== RLVR Correct Reasoning ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">Preprint 2025</div>
+  <div class="badge">ICLR 2026</div>
   <img src='images/cot-pass@k.png' alt="RLVR" width="100%">
 </div></div>
 <div class='paper-box-text' markdown="1">
