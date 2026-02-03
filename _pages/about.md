@@ -62,23 +62,6 @@ redirect_from:
 We propose an online Self-play with Variational Problem Synthesis strategy for RLVR training that iteratively leverages model responses to synthesize variational problems for augmentation.
 </div></div>
 
-<!-- ====================== DAC-RL ====================== -->
-<div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">ICLR 2026</div>
-  <img src='images/sws.png' alt="SwS" width="100%">
-</div></div>
-<div class='paper-box-text' markdown="1">
-
-[Training LLMs for Divide-and-Conquer Reasoning Elevates Test-Time Scalability](https://arxiv.org/abs/2602.02477)
-
-**Xiao Liang**, Zhong-Zhi Li, Zhenghao Lin, Eric Hancheng Jiang, Hengyuan Zhang, Yelong Shen, Kai-Wei Chang, Ying Nian Wu, Yeyun Gong, Weizhu Chen
-
-[**Code**](https://github.com/MasterVito/DAC-RL)
-
-We introduce an end-to-end RL framework to endow LLMs with divide-and-conquer reasoning capabilities, enabling a higher performance ceiling and stronger test-time scalability.
-
-</div></div>
-
 <!-- ====================== SwS ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
   <div class="badge">ICLR 2026</div>
@@ -94,6 +77,23 @@ We introduce an end-to-end RL framework to endow LLMs with divide-and-conquer re
 [**Project Page**](https://mastervito.github.io/MasterVito.SwS.github.io/)
 
 We introduce a Self-aware Weakness-driven Problem Synthesis framework that identifies and leverages model weaknesses for problem augmentation in RLVR.
+</div></div>
+
+<!-- ====================== DAC-RL ====================== -->
+<div class='paper-box'><div class='paper-box-image'><div>
+  <div class="badge">ICLR 2026</div>
+  <img src='images/dac.png' alt="SwS" width="100%">
+</div></div>
+<div class='paper-box-text' markdown="1">
+
+[Training LLMs for Divide-and-Conquer Reasoning Elevates Test-Time Scalability](https://arxiv.org/abs/2602.02477)
+
+**Xiao Liang**, Zhong-Zhi Li, Zhenghao Lin, Eric Hancheng Jiang, Hengyuan Zhang, Yelong Shen, Kai-Wei Chang, Ying Nian Wu, Yeyun Gong, Weizhu Chen
+
+[**Code**](https://github.com/MasterVito/DAC-RL)
+
+We introduce an end-to-end RL framework to endow LLMs with divide-and-conquer reasoning capabilities, enabling a higher performance ceiling and stronger test-time scalability.
+
 </div></div>
 
 <!-- ====================== HAGeo ====================== -->
