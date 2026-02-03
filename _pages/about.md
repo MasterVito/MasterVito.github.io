@@ -81,7 +81,7 @@ We introduce a Self-aware Weakness-driven Problem Synthesis framework that ident
 
 <!-- ====================== DAC-RL ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">ICLR 2026</div>
+  <div class="badge">Preprint 2026</div>
   <img src='images/dac.png' alt="SwS" width="100%">
 </div></div>
 <div class='paper-box-text' markdown="1">
