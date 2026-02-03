@@ -65,7 +65,7 @@ We introduce an end-to-end RL framework to endow LLMs with divide-and-conquer re
 
 <!-- ====================== SvS ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">Preprint 2025</div>
+  <div class="badge">ICLR 2026</div>
   <img src='images/svs.png' alt="SvS" width="100%">
 </div></div>
 <div class='paper-box-text' markdown="1">
@@ -82,7 +82,7 @@ We propose an online Self-play with Variational Problem Synthesis strategy for R
 
 <!-- ====================== SwS ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">ICLR 2026</div>
+  <div class="badge">Neurips 2025</div>
   <img src='images/sws.png' alt="SwS" width="100%">
 </div></div>
 <div class='paper-box-text' markdown="1">
