@@ -27,6 +27,7 @@ redirect_from:
 <div style="margin-top: 15px;"></div>
 
 # 🔥 News
+- *2026.04*: &nbsp; 🎉 Eight papers have been accepted by ACL 2026.
 - *2026.01*: &nbsp; 🎉 Two papers [SvS](https://arxiv.org/abs/2508.14029) and [RLVR Incentivizes Correct Reasoning](https://arxiv.org/abs/2506.14245) have been accepted by ICLR 2026.
 - *2025.09*: &nbsp; 🎉 Our paper [SwS](https://arxiv.org/abs/2506.08989) has been accepted by Neurips 2025.
 - *2025.09*: &nbsp; 🎉 Our paper [GuiLoMo](https://arxiv.org/abs/2506.14646) has been accepted by EMNLP 2025.
