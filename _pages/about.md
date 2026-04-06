@@ -27,7 +27,7 @@ redirect_from:
 <div style="margin-top: 15px;"></div>
 
 # 🔥 News
-- *2026.04*: &nbsp; 🎉 Eight papers have been accepted by ACL 2026.
+- *2026.04*: &nbsp; 🎉 Eight papers (Including [DAC](https://arxiv.org/abs/2602.02477), [HAGeo](https://arxiv.org/abs/2512.00097), and [TL;DR](https://arxiv.org/abs/2506.02678)) have been accepted by ACL 2026.
 - *2026.01*: &nbsp; 🎉 Two papers [SvS](https://arxiv.org/abs/2508.14029) and [RLVR Incentivizes Correct Reasoning](https://arxiv.org/abs/2506.14245) have been accepted by ICLR 2026.
 - *2025.09*: &nbsp; 🎉 Our paper [SwS](https://arxiv.org/abs/2506.08989) has been accepted by Neurips 2025.
 - *2025.09*: &nbsp; 🎉 Our paper [GuiLoMo](https://arxiv.org/abs/2506.14646) has been accepted by EMNLP 2025.
@@ -48,7 +48,7 @@ redirect_from:
 
 <!-- ====================== DAC-RL ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">Preprint 2026</div>
+  <div class="badge">ACL 2026</div>
   <img src='images/dac.png' alt="SwS" width="100%">
 </div></div>
 <div class='paper-box-text' markdown="1">
@@ -101,7 +101,7 @@ We introduce a Self-aware Weakness-driven Problem Synthesis framework that ident
 
 <!-- ====================== HAGeo ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">Preprint 2025</div>
+  <div class="badge">ACL 2026</div>
   <img src='images/HAGeo.png' alt="HAGeo" width="100%">
 </div></div>
 <div class='paper-box-text' markdown="1">
@@ -118,7 +118,7 @@ We present a highly efficient geometry theorem proving method that runs entirely
 
 <!-- ====================== TLDR ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">Preprint 2025</div>
+  <div class="badge">ACL 2026</div>
   <img src='images/tldr.png' alt="TLDR" width="100%">
 </div></div>
 <div class='paper-box-text' markdown="1">
