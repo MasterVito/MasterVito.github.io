@@ -177,21 +177,30 @@ We present a self-consistency based decoding strategy that improves factual accu
 We propose a task-oriented in-domain data augmentation framework consisting of in-domain data selection and task-specific synthesis.
 </div></div>
 
-<!-- ====================== SimCAS ====================== -->
-<div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">ACL 2024</div>
-  <img src='images/simcas.png' alt="SimCAS" width="100%">
-</div></div>
-<div class='paper-box-text' markdown="1">
+<!--
+====================== SimCAS ======================
 
-[Chunk, Align, Select: A Simple Long-sequence Processing Method for Transformers](https://arxiv.org/pdf/2308.13191)
+This block displays a paper card for the SimCAS project.
 
-Jiawen Xie, Pengyu Cheng, **Xiao Liang**, Yong Dai, Nan Du
+Structure:
+- paper-box: main container
+- paper-box-image: left section (image + badge)
+- paper-box-text: right section (title, authors, links, description)
 
-[**Code**](https://github.com/xjw-nlp/SimCAS)
+Content:
+- Conference: ACL 2024
+- Title: Chunk, Align, Select: A Simple Long-sequence Processing Method for Transformers
+- Authors: Jiawen Xie, Pengyu Cheng, Xiao Liang, Yong Dai, Nan Du
+- Links: Paper (arXiv) and Code (GitHub)
+- Summary: RL-based token selection framework for efficient long-sequence processing
 
-We propose a reinforcement-learning-based token selection framework for efficient long-sequence processing.
-</div></div>
+Notes:
+- The <div markdown="1"> allows Markdown rendering inside HTML
+- Image path: images/simcas.png (ensure the file exists)
+- You can duplicate this block to add more papers
+
+====================================================
+-->
 
 <!-- ====================== Chain-of-Reasoning ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
