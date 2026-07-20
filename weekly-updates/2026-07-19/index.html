@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jul 13 – 19, 2026 — Weekly Update</title>
+<meta name="description" content="OPD confirmed on full-set evals; self-distillation SFT and OPSD under way; math TIR stood up as a fast ablation platform." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Urbanist:wght@100..900&family=Geist+Mono:wght@400..600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../css/style.css?v=2" />
+</head>
+<body id="top">
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="../"><span class="brand-name">Weekly Updates</span></a>
+    <nav class="nav-links"><a href="../">← All reports</a></nav>
+  </div>
+</header>
+
+<main class="report-wrap">
+
+  <p class="report-meta">2026-07-13 – 07-19 · Xiao Liang</p>
+  <h1>7.13 – 7.19 Weekly Update</h1>
+
+  <!-- ============ TABLE OF CONTENTS ============ -->
+  <nav class="toc" aria-label="Contents">
+    <p class="toc-t">On this page</p>
+    <ol>
+      <li><a href="#overview"><span class="tnum">0</span><span>Summary</span></a></li>
+      <li><a href="#s1"><span class="tnum">1</span><span>OPD: full-benchmark evaluation</span></a></li>
+      <li><a href="#s2"><span class="tnum">2</span><span>Self-distillation SFT (35B-A3B)</span></a></li>
+      <li><a href="#s3"><span class="tnum">3</span><span>Math TIR as a clean ablation platform</span></a></li>
+      <li><a href="#s4"><span class="tnum">4</span><span>OPSD: hint-bearing feedback</span></a></li>
+    </ol>
+  </nav>
+
+  <!-- ============ 0 · SUMMARY ============ -->
+  <section class="report-sec" id="overview">
+    <h2 class="report-h2"><span class="n">0</span>Summary</h2>
+
+    <p><b>1. SWE-OPD full-infrastructure evaluation (§1).</b> This week I completed the SWE-OPD training and inference infrastructure and verified that the model trained with OPD improves performance on both SWE-Bench Verified and SWE-Bench Pro. </p>
+
+    <p><b>2. Self-Distillation SFT (§2).</b> Follow "Embarrassingly Simple Self-Distillation" —
+    shape the sampling distribution with temperature and top-k / top-p truncation alone, and test whether it
+    carries over to agentic SWE tasks. I have completed the self-sampling stage and now on the SFT-based self-training stage.</p>
+
+    <p><b>3. Math TIR (tool-integrated reasoning) validation platform (§3).</b> A SWE trajectory takes 25–40 minutes, so the contribution of improvement
+    is hard to see. Using math TIR for initial validation of the method, which is 60–100× speedup to sweep the OPD design space first, then transfer back to
+    SWE.</p>
+
+    <p><b>4. Self-in-context distillation experiments (§4).</b> In this setting, the teacher is replaced with a frozen snapshot of the student model, together with injected hints. I will initially use a strong critic model to generate the hints and, if the approach proves effective, gradually transition hint generation to the student itself. I completed the configuration alignment and compared the resulting training dynamics.</p>
+
+  </section>
+
+  <!-- ============ 1 · OPD FULL-SET EVAL ============ -->
+  <section class="report-sec" id="s1">
+    <h2 class="report-h2"><span class="n">1</span>OPD: full intra evaluation</h2>
+    <p class="sec-lead">OPD trained model beats the 9B base on <em>both (SWE-bench Verified (495) and SWE-bench Pro (266))</em> benchmarks, which demonstrates the correctness of the current infra.</p>
+
+
+    <p><b>Setup.</b> Qwen3.5-9B student distilled from a standalone 27B teacher, minimal harness, no hint
+    injection, TP2 × CP2 × DP4 = 16 across 4 training nodes plus 1 teacher node, context 65,536 / generation
+    12,288, <code>max_tokens_per_gpu</code> 38,912.</p>
+
+    <h3 class="report-h3">1.1 Evaluation results</h3>
+    <div class="tbl-block">
+      <div class="tbl-wrap">
+        <table class="rt">
+          <thead>
+            <tr><th>Model</th><th>Training</th><th class="lite">Verified 495</th><th class="lite">Pro 266</th><th>Avg. turns (V/P)</th><th>Abort</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>9B base</td><td>none</td><td class="col-lite">38.4% <span class="u">net 40.5%</span></td><td class="col-lite">20.7% <span class="u">net 22.9%</span></td><td>162 / 176</td><td>26 / 26</td></tr>
+            <tr class="key"><td>OPD-plain-i38</td><td>minimal harness</td><td class="col-lite">42.2% <span class="u">net 42.7%</span></td><td class="col-lite">24.8% <span class="u">net 25.3%</span></td><td class="col-lift">101 / 120</td><td class="col-lift">6 / 5</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <h3 class="report-h3">1.2 What the numbers say</h3>
+    <p><b>The gain shows up on both benchmarks and survives pairing.</b> Verified improves by 3.8pp
+    (38.4 → 42.2) and Pro by 4.1pp (20.7 → 24.8). Instance by instance, OPD uniquely solves 50 problems on
+    Verified against the base model's 38, and 17 against 12 on Pro. Combined McNemar significance is marginal
+    (p ≈ 0.14) with limited n, but two benchmarks moving the same direction plus a net per-instance gain is a
+    real signal rather than evaluation noise.</p>
+
+    <h3 class="report-h3">1.3 Why OPD suits long-horizon tasks</h3>
+    <p>A natural worry about applying on-policy distillation to SWE work is cost: trajectories are long, so
+    computing teacher log-probs over them sounds prohibitive. In practice it is not, because <b>OPD is a
+    per-turn teacher–student distillation</b>. The context may be long, but the generated span that actually
+    participates in the OPD computation at each turn is short.</p>
+
+    <p>This follows from how multi-turn SWE harnesses are normally built: <b>the think tokens of each turn are
+    not carried into the next turn's input</b>. The next turn sees only the previous turn's tool selection,
+    not the reasoning behind it — otherwise retaining think content at every turn would make the trajectory
+    balloon. But those think tokens are model-generated and must still be trained on, so the implementation
+    proceeds one turn at a time.</p>
+
+    <div class="report-call">
+      <span class="co-k">Consequence</span>
+      There is no "short prompt, very long output, teacher log-probs over an enormous sequence" cost problem.
+      Only a small fraction is computed at each step — which is why OPD is workable on SWE-style tasks at all.
+    </div>
+  </section>
+
+  <!-- ============ 2 · SELF-DISTILLATION SFT ============ -->
+  <section class="report-sec" id="s2">
+    <h2 class="report-h2"><span class="n">2</span>Self-distillation Training (35B-A3B)</h2>
+    <p class="sec-lead">Testing whether sampling-distribution shaping alone — temperature plus top-k / top-p
+    truncation — can self-distill a gain on agentic SWE tasks, with no external teacher involved. Training is
+    running.</p>
+
+    <p>  Apple's paper, <b>"Embarrassingly Simple Self-Distillation Improves Code Generation,"</b>
+  shows that a remarkably simple recipe—shaping the exploration distribution and the
+  resulting token distribution by training on self-generated rollouts with appropriate
+  temperature and truncation—can improve code generation on its own.</p>
+
+    <p>If the student's own rollouts turn out not to be good enough, there is a fallback: let a teacher
+    intervene in the student's trajectories, either by <b>teacher selection</b> or by <b>teacher
+    re-rollout</b>.</p>
+
+    <h3 class="report-h3">2.1 Choosing the rollout temperature</h3>
+    <p>Eleven temperatures were swept on 100 SWE-bench Verified instances at top-k 10, on a clean H100 curve.</p>
+
+    <div class="tbl-block">
+      <div class="tbl-wrap">
+        <table class="rt">
+          <thead><tr><th>Temperature</th><th class="lite">pass@1</th><th>Timeouts</th></tr></thead>
+          <tbody>
+            <tr><td>0.7</td><td class="col-lite">53%</td><td>3</td></tr>
+            <tr><td>0.8</td><td class="col-lite">59%</td><td>3</td></tr>
+            <tr><td>0.9</td><td class="col-lite">58%</td><td>0</td></tr>
+            <tr><td>1.0</td><td class="col-lite">59%</td><td>4</td></tr>
+            <tr class="key"><td>1.1 — selected</td><td class="col-lite">57%</td><td>4</td></tr>
+            <tr><td>1.2</td><td class="col-lite">53%</td><td>4</td></tr>
+            <tr><td>1.4</td><td class="col-lite">46%</td><td>6</td></tr>
+            <tr><td>1.6</td><td class="col-lite">21%</td><td>15</td></tr>
+            <tr><td>1.8</td><td class="col-lite">6%</td><td>7</td></tr>
+            <tr><td>2.0</td><td class="col-lite">1%</td><td>3</td></tr>
+            <tr><td>2.2</td><td class="col-lite">1%</td><td>8</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p><b>1.1 was chosen to preserve rollout diversity.</b> 0.8 and 1.0 score slightly higher (59%), but 1.1
+    gives up almost nothing (57%) while leaving more exploration in the distribution — which is precisely the
+    lever the self-distillation recipe depends on. Quality collapses beyond 1.4.</p>
+
+    <h3 class="report-h3">2.2 Training data</h3>
+    <div class="tbl-block">
+      <div class="tbl-wrap">
+        <table class="rt">
+          <thead><tr><th>Item</th><th class="lite">Value</th></tr></thead>
+          <tbody>
+            <tr><td>Rollout source</td><td class="col-lite"> 6,650 SWE problems / 5,124 Docker images</td></tr>
+            <tr><td>Dataset</td><td class="col-lite"><code>10k self-sampled trajectories</code></td></tr>
+            <tr><td>Design decision</td><td class="col-lite">Train on both positive <em>and</em> negative trajectories — not rejection sampling.</td></tr>
+            <tr><td>Sampling</td><td class="col-lite">Temperature 1.1 / top_k 10 / top_p 0.95 — same spec as Apple's paper</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <h3 class="report-h3">2.3 Error masking</h3>
+    <p>Failed steps stay in the trajectory, so the model still sees them and keeps its error-recovery context.
+    What changes is the loss: the single assistant turn whose <em>action itself</em> was invalid does not
+    contribute. The masked share comes to <b>2.45%</b>.</p>
+
+    <div class="tbl-block">
+      <div class="tbl-wrap">
+        <table class="rt">
+          <thead><tr><th>Tier</th><th class="lite">Condition</th><th>Turns</th><th>Masked</th></tr></thead>
+          <tbody>
+            <tr><td>Tier 1</td><td class="col-lite">No valid action — no tool_call, or hallucinated tool name / arguments</td><td>20,729</td><td class="col-lift">yes</td></tr>
+            <tr><td>Tier 2</td><td class="col-lite">Command syntax error — rc ≠ 0 with command-not-found or syntax-error</td><td>867</td><td class="col-lift">yes</td></tr>
+            <tr class="key"><td>Excluded</td><td class="col-lite">Legitimate command that failed — a test not passing, a genuine traceback</td><td>10.4% of turns</td><td>no</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p>The exclusion is the important line. A command that runs correctly and reveals a real failure is an
+    error-recovery signal worth learning from; only turns that were never valid actions get zeroed out.</p>
+
+    <h3 class="report-h3">2.4 Training</h3>
+    <p>Running on 2 MI300 nodes under slime Megatron: 2 epochs, global batch size 16, lr 1e-5 cosine, bf16,
+    loss taken only on assistant think and tool_call spans.</p>
+
+    <div class="report-call">
+      <span class="co-k">Correction</span>
+      The earlier conclusion that "Megatron cannot run this, we need a different framework" was wrong and has
+      been retired. The framework was never the blocker.
+    </div>
+
+    <p><b>Evaluation is pending compute.</b> Once the rollout work frees capacity, base 35B and SFT 35B will
+    be run against Verified 495 + Pro 266, minimal harness only, temperature 1.0.</p>
+  </section>
+
+  <!-- ============ 3 · MATH TIR ============ -->
+  <section class="report-sec" id="s3">
+    <h2 class="report-h2"><span class="n">3</span>Math TIR as a faster ablation platform</h2>
+    <p class="sec-lead">A math tool-integrated-reasoning setup generates a trajectory 60–100× faster than SWE
+    while keeping the OPD teacher mechanism byte-for-byte identical — which makes it the right place to answer
+    the open design questions.</p>
+
+    <p>The difficulty with iterating on OPD inside SWE is that three expensive properties are entangled: the
+    task needs a CPU-heavy sandbox cluster that is prone to falling over, trajectories routinely exceed 100
+    turns, and the reward comes from noisy sandbox evaluation. When a run improves or fails to improve, it is
+    hard to attribute that to the OPD signal itself. Math TIR removes all three while changing nothing about
+    the distillation mechanism.</p>
+
+    <div class="tbl-block">
+      <div class="tbl-wrap">
+        <table class="rt">
+          <thead><tr><th>Dimension</th><th>SWE-OPD (current)</th><th class="lite">Math TIR-OPD (proposed)</th></tr></thead>
+          <tbody>
+            <tr><td>Sandbox</td><td>docker / E2B container cluster; CPU-heavy, fragile</td><td class="col-lite">in-process <code>subprocess</code> — no containers, nothing remote</td></tr>
+            <tr><td>Trajectory length</td><td>often &gt; 100 turns</td><td class="col-lite">≤ 16 tool calls</td></tr>
+            <tr><td>Reward</td><td>sandbox eval, noisy</td><td class="col-lite">boxed answer — verifiable and clean</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p>Because the OPD loss and the teacher query are unchanged, the confounders drop out and the <b>OPD signal
+    itself</b> can be isolated — the KL coefficient, the teacher–student gap, early stopping, ReOPD prefix
+    scheduling. Conclusions then transfer back to SWE.</p>
+
+    <h3 class="report-h3">3.1 Measured cost difference</h3>
+    <div class="tbl-block">
+      <div class="tbl-wrap">
+        <table class="rt">
+          <thead><tr><th>Metric</th><th>Qwen3.5-9B · SWE (minimal)</th><th class="lite">Qwen3-4B-SFT · math TIR</th><th>Ratio</th></tr></thead>
+          <tbody>
+            <tr><td>Tool-call turns</td><td>~101–162 </span></td><td class="col-lite">3.5</td><td class="col-lift">~30–46× fewer</td></tr>
+            <tr><td>Trajectory length</td><td>~24k tokens </td><td class="col-lite">~3.6k tokens</td><td class="col-lift">~7× shorter</td></tr>
+            <tr class="key"><td>Time per trajectory</td><td>~25–40 min <span class="u">~14s/turn = 9.5s model + 4.5s sandbox</span></td><td class="col-lite">~24s </td><td class="col-lift">~60–100× faster</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p>With limited compute, that ratio is the whole argument: settle the OPD design space where a trajectory
+    costs 24 seconds, then carry the answers back to the setting where one costs half an hour.</p>
+
+    <h3 class="report-h3">3.2 Qwen3-4B TIR baseline</h3>
+    <div class="tbl-block">
+      <div class="tbl-wrap">
+        <table class="rt">
+          <thead><tr><th>Run</th><th>aime24</th><th>aime25</th><th>aime26</th><th>amc23</th><th>hmmt25</th><th>hmmt26</th><th class="lite">AVG</th></tr></thead>
+          <tbody>
+            <tr><td>base, reasoning only</td><td>38.3</td><td>42.5</td><td>52.5</td><td>84.4</td><td>26.7</td><td>20.5</td><td class="col-lite">44.1</td></tr>
+            <tr class="key"><td>base, TIR</td><td>47.9</td><td>51.2</td><td>60.8</td><td>96.9</td><td>34.2</td><td>21.2</td><td class="col-lite">52.0</td></tr>
+            <tr><td>SFT, reasoning only</td><td>31.2</td><td>38.3</td><td>40.8</td><td>84.4</td><td>17.5</td><td>13.6</td><td class="col-lite">37.7</td></tr>
+            <tr><td>SFT, TIR</td><td>23.3</td><td>26.7</td><td>25.8</td><td>81.9</td><td>17.5</td><td>12.1</td><td class="col-lite">31.2</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p><b>The base TIR score is misleading on its own.</b> 52.0 against 44.1 for reasoning-only looks like tool
+    use helping, but in many of those runs the model never actually calls a tool. Scoring well is not the same
+    as having learned TIR; genuine interleaved tool-use reasoning is a capability that has to be trained in
+    with RL.</p>
+
+    <p>The only openly available model we could find that has learned this interleaved behaviour through RL is
+    from the Qwen2.5 generation. Because its distillation data comes from that older generation, quality is
+    lower and SFT costs accuracy — 37.7 reasoning-only and 31.2 TIR, both below base. That does not block the
+    experiment: the Re-OPD paper works the same way, and we are following their setting.</p>
+
+
+    <h3 class="report-h3">3.3 Status</h3>
+    <p>Waiting on the teacher SFT, which should complete within a day. After that the OPD and OPSD ablations
+    will likely run <b>here first rather than on SWE</b>, simply because SWE is too slow for the compute
+    currently available.</p>
+  </section>
+
+  <!-- ============ 4 · OPSD ============ -->
+  <section class="report-sec" id="s4">
+    <h2 class="report-h2"><span class="n">4</span>OPSD: hint-bearing feedback</h2>
+    <p class="sec-lead">The other form self-distillation can take: the student is 35B-A3B, the teacher is its
+    own frozen initial snapshot, and the difference between them is manufactured by injecting a hint.</p>
+
+    <p>The motivating observation is that <b>an RL reward is a scalar and carries no direction</b>. It says an
+    attempt was worse without indicating how. Replacing it with <b>hint-bearing feedback</b>, trained through
+    a feedback-distillation loss, turns that into directional supervision. The intended progression is to hold
+    a <b>critic model fixed</b> while it generates hints, then swap the hint source over to the student
+    itself, and eventually let the critic improve on its own.</p>
+
+    <h3 class="report-h3">4.1 Open questions</h3>
+    <ul>
+      <li><b>Feedback must not contain the answer</b> — otherwise the signal degenerates into supervision.</li>
+      <li>Hint quality matters a great deal, which raises the harder question of how hints should be generated at all.</li>
+      <li>Passing everything in causes the model to lose focus. Should hints be chunked?</li>
+      <li>Could the <b>divergence between the student's trajectory and the teacher's</b> serve as the hint?</li>
+      <li>How should the summarization step be designed?</li>
+    </ul>
+
+    <h3 class="report-h3">4.2 Two-stage plan</h3>
+    <p><b>Stage one, in progress:</b> establish whether hints written by a genuinely strong teacher —
+    GPT-5.6-terra in the current experiments — actually help the student train on this task at all.</p>
+    <p><b>Stage two:</b> work out how to write good hints, and then whether the student model can be brought to
+    write them itself. If that lands, it closes the loop into iterative self-improvement.</p>
+
+    <h3 class="report-h3">4.3 Configuration against OPD</h3>
+    <div class="tbl-block">
+      <div class="tbl-wrap">
+        <table class="rt">
+          <thead><tr><th>Dimension</th><th>OPD (9B + 27B)</th><th class="lite">OPSD (35B-A3B)</th><th>Same</th></tr></thead>
+          <tbody>
+            <tr><td>Distillation type</td><td>cross — 9B student ← 27B teacher</td><td class="col-lite">self — 35B student ← own frozen snapshot</td><td>✗</td></tr>
+            <tr><td>Student</td><td>Qwen3.5-9B</td><td class="col-lite">Qwen3.5-35B-A3B</td><td>✗</td></tr>
+            <tr><td>Teacher</td><td>Qwen3.6-27B</td><td class="col-lite">Qwen3.5-35B-A3B</td><td>✗</td></tr>
+            <tr class="key"><td>Hint</td><td>none</td><td class="col-lite">GPT-5.6-terra, one per trajectory</td><td>✗</td></tr>
+            <tr><td>Non-expert parallelism</td><td>TP2 × CP2 × DP4 = 16</td><td class="col-lite">TP2 × CP2 × DP4 = 16</td><td>✓</td></tr>
+            <tr><td>Nodes</td><td>4 training + 1 teacher</td><td class="col-lite">4 training + 1 teacher</td><td>✓</td></tr>
+            <tr><td>ctx / gen</td><td>65,536 / 12,288</td><td class="col-lite">65,536 / 12,288</td><td>✓</td></tr>
+            <tr><td>max_tokens_per_gpu</td><td>38,912</td><td class="col-lite">38,912</td><td>✓</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h3 class="report-h3">4.4 Training dynamics</h3>
+    <div class="tbl-block">
+      <div class="tbl-wrap">
+        <table class="rt">
+          <thead><tr><th>Metric</th><th>OPD 9B</span></th><th class="lite">OPSD 35B</th><th>Reading</th></tr></thead>
+          <tbody>
+            <tr><td>step_time</td><td>~72 min</td><td class="col-lite">~68 min</td><td>essentially the same</td></tr>
+            <tr><td>rollout_time</td><td>42 min</td><td class="col-lite">36 min</td><td>OPSD slightly faster</td></tr>
+            <tr><td>train_time</td><td>31 min</td><td class="col-lite">29 min</td><td>comparable</td></tr>
+            <tr><td>actor_train_time</td><td>25 min</td><td class="col-lite">22 min</td><td>comparable</td></tr>
+            <tr><td>effective tok/gpu/s</td><td>25.3</td><td class="col-lite">14.3</td><td>OPD higher — 9B, longer outputs</td></tr>
+            <tr><td>num_turns / traj</td><td>57</td><td class="col-lite">59</td><td>the same</td></tr>
+            <tr><td>tokens_per_turn</td><td>282</td><td class="col-lite">106</td><td>35B emits much less per turn</td></tr>
+            <tr class="key"><td>opd_reverse_kl</td><td>0.122</td><td class="col-lite">0.004</td><td>the substantive difference — see below</td></tr>
+            <tr><td>student_gt_teacher_frac</td><td>0.65</td><td class="col-lite">0.46</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p><b>The reverse-KL gap is the finding worth sitting with.</b> At 0.122 against 0.004 the two runs differ
+    by roughly 30×, which is exactly what self-distillation predicts: a student and its own frozen snapshot
+    start out very nearly identically distributed, so there is almost no divergence to measure. The
+    implication is that OPSD's effective supervision does not come from a capability gap at all — it comes
+    from <b>the distributional difference the injected hint creates</b>. That makes hint quality the central
+    variable rather than a detail, and connects directly to the open questions in §4.1.</p>
+
+  </section>
+
+  <!-- ============ CLOSE ============ -->
+  <div class="report-close">
+    <span>2026-07-13 – 07-19 · Xiao Liang</span>
+    <span><a href="#top">↑ Top</a> &nbsp; <a href="../">All reports</a></span>
+  </div>
+
+</main>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
