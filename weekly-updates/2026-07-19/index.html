@@ -30,9 +30,9 @@
     <p class="toc-t">On this page</p>
     <ol>
       <li><a href="#overview"><span class="tnum">0</span><span>Summary</span></a></li>
-      <li><a href="#s1"><span class="tnum">1</span><span>OPD: full-benchmark evaluation</span></a></li>
-      <li><a href="#s2"><span class="tnum">2</span><span>Self-distillation SFT (35B-A3B)</span></a></li>
-      <li><a href="#s3"><span class="tnum">3</span><span>Math TIR as a clean ablation platform</span></a></li>
+      <li><a href="#s1"><span class="tnum">1</span><span>OPD: full infra evaluation</span></a></li>
+      <li><a href="#s2"><span class="tnum">2</span><span>Self-distillation Training (35B-A3B)</span></a></li>
+      <li><a href="#s3"><span class="tnum">3</span><span>Math TIR as a faster ablation platform</span></a></li>
       <li><a href="#s4"><span class="tnum">4</span><span>OPSD: hint-bearing feedback</span></a></li>
     </ol>
   </nav>
@@ -41,15 +41,22 @@
   <section class="report-sec" id="overview">
     <h2 class="report-h2"><span class="n">0</span>Summary</h2>
 
+    <p class="sec-lead">My motivation for this work is to identify strategies for better post-training of
+    code-agent models — both with and without access to a stronger teacher model — through self-improvement
+    and distillation. My current approach is to explore multiple experimental settings and hypotheses in
+    parallel, identify the most promising direction, and then investigate it in greater depth.</p>
+
     <p><b>1. SWE-OPD full-infrastructure evaluation (§1).</b> This week I completed the SWE-OPD training and inference infrastructure and verified that the model trained with OPD improves performance on both SWE-Bench Verified and SWE-Bench Pro. </p>
 
-    <p><b>2. Self-Distillation SFT (§2).</b> Follow "Embarrassingly Simple Self-Distillation" —
-    shape the sampling distribution with temperature and top-k / top-p truncation alone, and test whether it
-    carries over to agentic SWE tasks. I have completed the self-sampling stage and now on the SFT-based self-training stage.</p>
+    <p><b>2. Self-Distillation SFT (§2).</b> Following "Embarrassingly Simple Self-Distillation" —
+    shape the sampling distribution with temperature and top-k / top-p truncation alone — I test whether the
+    recipe carries over to agentic SWE tasks. The self-sampling stage is complete, and the SFT-based
+    self-training stage is now running.</p>
 
-    <p><b>3. Math TIR (tool-integrated reasoning) validation platform (§3).</b> A SWE trajectory takes 25–40 minutes, so the contribution of improvement
-    is hard to see. Using math TIR for initial validation of the method, which is 60–100× speedup to sweep the OPD design space first, then transfer back to
-    SWE.</p>
+    <p><b>3. Math TIR (tool-integrated reasoning) validation platform (§3).</b> A SWE trajectory takes
+    25–40 minutes, so the contribution of each improvement is hard to see. I use math TIR for initial
+    validation of the method instead — a 60–100× speedup — to sweep the OPD design space first, then transfer
+    the conclusions back to SWE.</p>
 
     <p><b>4. Self-in-context distillation experiments (§4).</b> In this setting, the teacher is replaced with a frozen snapshot of the student model, together with injected hints. I will initially use a strong critic model to generate the hints and, if the approach proves effective, gradually transition hint generation to the student itself. I completed the configuration alignment and compared the resulting training dynamics.</p>
 
@@ -57,8 +64,9 @@
 
   <!-- ============ 1 · OPD FULL-SET EVAL ============ -->
   <section class="report-sec" id="s1">
-    <h2 class="report-h2"><span class="n">1</span>OPD: full intra evaluation</h2>
-    <p class="sec-lead">OPD trained model beats the 9B base on <em>both (SWE-bench Verified (495) and SWE-bench Pro (266))</em> benchmarks, which demonstrates the correctness of the current infra.</p>
+    <h2 class="report-h2"><span class="n">1</span>OPD: full infra evaluation</h2>
+    <p class="sec-lead">The OPD-trained model beats the 9B base on <em>both</em> benchmarks — SWE-bench
+    Verified (495) and SWE-bench Pro (266) — which demonstrates the correctness of the current infra.</p>
 
 
     <p><b>Setup.</b> Qwen3.5-9B student distilled from a standalone 27B teacher, minimal harness, no hint
@@ -114,10 +122,10 @@
     truncation — can self-distill a gain on agentic SWE tasks, with no external teacher involved. Training is
     running.</p>
 
-    <p>  Apple's paper, <b>"Embarrassingly Simple Self-Distillation Improves Code Generation,"</b>
-  shows that a remarkably simple recipe—shaping the exploration distribution and the
-  resulting token distribution by training on self-generated rollouts with appropriate
-  temperature and truncation—can improve code generation on its own.</p>
+    <p>Apple's paper, <b>"Embarrassingly Simple Self-Distillation Improves Code Generation,"</b> shows that
+    a remarkably simple recipe — shaping the exploration distribution and the resulting token distribution by
+    training on self-generated rollouts with appropriate temperature and truncation — can improve code
+    generation on its own.</p>
 
     <p>If the student's own rollouts turn out not to be good enough, there is a fallback: let a teacher
     intervene in the student's trajectories, either by <b>teacher selection</b> or by <b>teacher
@@ -157,8 +165,8 @@
         <table class="rt">
           <thead><tr><th>Item</th><th class="lite">Value</th></tr></thead>
           <tbody>
-            <tr><td>Rollout source</td><td class="col-lite"> 6,650 SWE problems / 5,124 Docker images</td></tr>
-            <tr><td>Dataset</td><td class="col-lite"><code>10k self-sampled trajectories</code></td></tr>
+            <tr><td>Rollout source</td><td class="col-lite">6,650 SWE problems / 5,124 Docker images</td></tr>
+            <tr><td>Dataset</td><td class="col-lite">10k self-sampled trajectories</td></tr>
             <tr><td>Design decision</td><td class="col-lite">Train on both positive <em>and</em> negative trajectories — not rejection sampling.</td></tr>
             <tr><td>Sampling</td><td class="col-lite">Temperature 1.1 / top_k 10 / top_p 0.95 — same spec as Apple's paper</td></tr>
           </tbody>
@@ -238,9 +246,9 @@
         <table class="rt">
           <thead><tr><th>Metric</th><th>Qwen3.5-9B · SWE (minimal)</th><th class="lite">Qwen3-4B-SFT · math TIR</th><th>Ratio</th></tr></thead>
           <tbody>
-            <tr><td>Tool-call turns</td><td>~101–162 </span></td><td class="col-lite">3.5</td><td class="col-lift">~30–46× fewer</td></tr>
-            <tr><td>Trajectory length</td><td>~24k tokens </td><td class="col-lite">~3.6k tokens</td><td class="col-lift">~7× shorter</td></tr>
-            <tr class="key"><td>Time per trajectory</td><td>~25–40 min <span class="u">~14s/turn = 9.5s model + 4.5s sandbox</span></td><td class="col-lite">~24s </td><td class="col-lift">~60–100× faster</td></tr>
+            <tr><td>Tool-call turns</td><td>~101–162</td><td class="col-lite">3.5</td><td class="col-lift">~30–46× fewer</td></tr>
+            <tr><td>Trajectory length</td><td>~24k tokens</td><td class="col-lite">~3.6k tokens</td><td class="col-lift">~7× shorter</td></tr>
+            <tr class="key"><td>Time per trajectory</td><td>~25–40 min <span class="u">~14s/turn = 9.5s model + 4.5s sandbox</span></td><td class="col-lite">~24s</td><td class="col-lift">~60–100× faster</td></tr>
           </tbody>
         </table>
       </div>
@@ -331,7 +339,7 @@
     <div class="tbl-block">
       <div class="tbl-wrap">
         <table class="rt">
-          <thead><tr><th>Metric</th><th>OPD 9B</span></th><th class="lite">OPSD 35B</th><th>Reading</th></tr></thead>
+          <thead><tr><th>Metric</th><th>OPD 9B</th><th class="lite">OPSD 35B</th><th>Reading</th></tr></thead>
           <tbody>
             <tr><td>step_time</td><td>~72 min</td><td class="col-lite">~68 min</td><td>essentially the same</td></tr>
             <tr><td>rollout_time</td><td>42 min</td><td class="col-lite">36 min</td><td>OPSD slightly faster</td></tr>
