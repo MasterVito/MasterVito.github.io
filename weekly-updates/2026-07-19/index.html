@@ -30,10 +30,10 @@
     <p class="toc-t">On this page</p>
     <ol>
       <li><a href="#overview"><span class="tnum">0</span><span>Summary</span></a></li>
-      <li><a href="#s1"><span class="tnum">1</span><span>OPD: full infra evaluation</span></a></li>
-      <li><a href="#s2"><span class="tnum">2</span><span>Self-distillation Training (35B-A3B)</span></a></li>
+      <li><a href="#s1"><span class="tnum">1</span><span>SWE-OPD full-infrastructure evaluation</span></a></li>
+      <li><a href="#s2"><span class="tnum">2</span><span>Self-distillation Training</span></a></li>
       <li><a href="#s3"><span class="tnum">3</span><span>Math TIR as a faster ablation platform</span></a></li>
-      <li><a href="#s4"><span class="tnum">4</span><span>OPSD: hint-bearing feedback</span></a></li>
+      <li><a href="#s4"><span class="tnum">4</span><span>Self-in-context distillation</span></a></li>
     </ol>
   </nav>
 
@@ -48,7 +48,7 @@
 
     <p><b>1. SWE-OPD full-infrastructure evaluation (§1).</b> This week I completed the SWE-OPD training and inference infrastructure and verified that the model trained with OPD improves performance on both SWE-Bench Verified and SWE-Bench Pro. </p>
 
-    <p><b>2. Self-Distillation SFT (§2).</b> Following "Embarrassingly Simple Self-Distillation" —
+    <p><b>2. Self-distillation Training (35B-A3B) (§2).</b> Following "Embarrassingly Simple Self-Distillation" —
     shape the sampling distribution with temperature and top-k / top-p truncation alone — I test whether the
     recipe carries over to agentic SWE tasks. The self-sampling stage is complete, and the SFT-based
     self-training stage is now running.</p>
