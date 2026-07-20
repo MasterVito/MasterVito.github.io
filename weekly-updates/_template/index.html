@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--
+  ┌──────────────────────────────────────────────────────────────┐
+  │ To add a new week:                                            │
+  │  1) Copy this whole _template/ folder, rename it to the date, │
+  │     e.g. 2026-07-26/                                          │
+  │  2) Edit this index.html (every block has a comment)          │
+  │  3) In the root index.html, copy one <a class="week"> card at │
+  │     the top and point it at the new folder                    │
+  └──────────────────────────────────────────────────────────────┘
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mon D – D, 2026 — Weekly Update</title>            <!-- change title -->
+<meta name="description" content="One-line summary of the week." />  <!-- change summary -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Urbanist:wght@100..900&family=Geist+Mono:wght@400..600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../css/style.css?v=2" />
+</head>
+<body id="top">
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="../"><span class="brand-name">Weekly Updates</span></a>
+    <nav class="nav-links"><a href="../">← All reports</a></nav>
+  </div>
+</header>
+
+<main class="report-wrap">
+
+  <!-- Top: date · author / title / one-line lead -->
+  <p class="report-meta">2026-07-?? – 07-?? · Xiao Liang</p>
+  <h1>Weekly update</h1>
+  <p class="report-lead">One or two sentences framing the week's main threads. <b>Bold</b> the key terms.</p>
+
+  <!-- TOC: add a row here for every <section> you add -->
+  <nav class="toc" aria-label="Contents">
+    <p class="toc-t">On this page</p>
+    <ol>
+      <li><a href="#overview"><span class="tnum">0</span><span>At a glance</span></a></li>
+      <li><a href="#s1"><span class="tnum">1</span><span>First thing</span></a></li>
+    </ol>
+  </nav>
+
+  <!-- ===== 0 · At a glance: 3-column status board (recommended — keep every week) ===== -->
+  <section class="report-sec" id="overview">
+    <h2 class="report-h2"><span class="n">0</span>At a glance</h2>
+    <div class="cols">
+      <div class="col done">
+        <div class="col-head"><span class="col-dot"></span><span class="col-title">Done</span></div>
+        <ul>
+          <li>One line per finished item<span class="sub">optional: a sub-line of detail</span></li>
+        </ul>
+      </div>
+      <div class="col wip">
+        <div class="col-head"><span class="col-dot"></span><span class="col-title">In progress</span></div>
+        <ul><li>Something in flight</li></ul>
+      </div>
+      <div class="col next">
+        <div class="col-head"><span class="col-dot"></span><span class="col-title">Next</span></div>
+        <ul><li>Plan for next week</li></ul>
+      </div>
+    </div>
+
+    <!-- Headline numbers (optional): delete the whole block if unused -->
+    <div class="metrics">
+      <div class="metric">
+        <div class="metric-n">42<em>%</em></div>
+        <div class="metric-k">metric name</div>
+        <div class="metric-d">one-line note</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 1 · A content section ===== -->
+  <section class="report-sec" id="s1">
+    <h2 class="report-h2"><span class="n">1</span>First thing</h2>
+    <!-- Borrowed craft: open with the RESULT in one sentence, not just the topic -->
+    <p class="sec-lead">State the result in a single sentence — what happened, <em>not</em> what the topic is.</p>
+    <p>A body paragraph. <b>Bold</b>, <code>inline code</code>, and <a href="#">links</a> all work directly.</p>
+
+    <!-- Optional components — copy in whichever you need -->
+
+    <!-- (a) Data table -->
+    <div class="tbl-block">
+      <div class="tbl-wrap">
+        <table class="rt">
+          <thead><tr><th>Column</th><th class="lite">Highlight col</th><th>Δ</th></tr></thead>
+          <tbody>
+            <tr><td>Row 1</td><td class="col-lite">value</td><td class="col-lift">+1</td></tr>
+            <tr class="key"><td>Key row</td><td class="col-lite">value</td><td class="col-lift">+9</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- (b) Terminal / code block -->
+    <div class="term">
+      <div class="term-bar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="term-title">command</span></div>
+      <pre class="term-body"><span class="c-dim"># comment</span>
+your-command <span class="c-flag">--flag</span> value</pre>
+    </div>
+
+    <!-- (c) Spotlight callout -->
+    <div class="report-call">
+      <span class="co-k">Sub-heading (optional)</span>
+      A sentence you want to emphasize.
+    </div>
+
+    <!-- (d) Hover-expand cases (progressive disclosure) -->
+    <div class="cases">
+      <div class="case" tabindex="0">
+        <div class="case-row">
+          <span class="case-badge">A</span>
+          <span class="case-body">
+            <span class="case-title">Case title</span>
+            <span class="case-desc">One-line surface description.</span>
+          </span>
+          <span class="case-hint"><span class="arw">›</span> show</span>
+        </div>
+        <div class="case-detail"><div class="cd-grid">
+          <div class="cd-cell"><span class="cd-k">What it is</span><p>Detail column 1.</p></div>
+          <div class="cd-cell"><span class="cd-k">Status</span><p>Detail column 2.</p></div>
+          <div class="cd-cell fix"><span class="cd-k">Why it matters</span><p>Detail column 3.</p></div>
+        </div></div>
+      </div>
+    </div>
+
+    <!-- (e) Image / placeholder -->
+    <figure class="figure">
+      <div class="ph">image placeholder</div>
+      <figcaption>Caption. To use an image, replace the ph div with <code>&lt;img src="../assets/xxx.png" /&gt;</code>.</figcaption>
+    </figure>
+
+    <!-- (f) Caveat note (quieter, honest footnotes) -->
+    <p class="report-note"><b>Note:</b> use this for caveats — quieter grey text.</p>
+
+    <!-- (g) "Coming" forward-pointer -->
+    <div class="tease"><span class="tz">Coming</span> <span>Something you'll write up next week.</span></div>
+  </section>
+
+  <div class="report-close">
+    <span>2026-07-?? – 07-?? · Xiao Liang</span>
+    <span><a href="#top">↑ Top</a> &nbsp; <a href="../">All reports</a></span>
+  </div>
+
+</main>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
