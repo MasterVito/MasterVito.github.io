@@ -47,17 +47,17 @@ redirect_from:
 # 🧑‍💻 Experience
 - (Jun. 2026 - Sep. 2026) Research Intern, Microsoft AI Superintelligence.
 <br> Mentor: [Yeyun Gong](https://scholar.google.com/citations?user=piUkwMYAAAAJ&hl=en), [Paul Mineiro](https://scholar.google.com/citations?user=pl-qLQwAAAAJ&hl=en), [Weizhu Chen](https://scholar.google.com/citations?user=LG_E-4EAAAAJ&hl=en)
-<br> Self-improving coding agents by generating more compact, higher-quality trajectories.
+  + Self-improving coding agents by generating more compact, higher-quality trajectories.
 
 - (Nov. 2023 - May 2026) Research Intern, Microsoft Research & CoreAI.
 <br> Mentor: [Yeyun Gong](https://scholar.google.com/citations?user=piUkwMYAAAAJ&hl=en), [Yelong Shen](https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en), [Weizhu Chen](https://scholar.google.com/citations?user=LG_E-4EAAAAJ&hl=en)
-<br> Pre-training and continual learning for large language models (LLMs).
-<br> Data-centric reinforcement learning for enhancing LLM reasoning.
+  + Pre-training and continual learning for large language models (LLMs).
+  + Data-centric reinforcement learning for enhancing LLM reasoning.
 
 - (Mar. 2023 - Sep. 2023) Research Intern, AI Lab, Tencent Inc., Shenzhen, China.
 <br> Mentor: [Pengyu Cheng](https://linear95.github.io/)
-<br> Utilizing reinforcement learning for long sequence modeling in Transformers.
-<br> Dialog generation and task-specific instruction data generation.
+  + Utilizing reinforcement learning for long sequence modeling in Transformers.
+  + Dialog generation and task-specific instruction data generation.
 
 <div style="margin-top: 15px;"></div>
 
