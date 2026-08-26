@@ -6,17 +6,17 @@ main:
   - title: "News"
     url: "/#-news"
 
-  - title: "Educations"
+  - title: "Education"
     url: "/#-education"
-
-  - title: "Publications"
-    url: "/#-selected-publications"
 
   - title: "Experience"
     url: "/#-experience"
 
+  - title: "Publications"
+    url: "/#-selected-publications"
+
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
-  - title: "CV (26.04.13)"
-    url: "/_pages/Xiao_Liang_CV_26_04_13.pdf"
+  - title: "CV (26.08.26)"
+    url: "/_pages/Xiao_Liang_CV_26_08_26.pdf"
