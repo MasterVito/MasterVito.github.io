@@ -38,7 +38,7 @@ redirect_from:
 <div style="margin-top: 15px;"></div>
 
 # 📖 Education
-- **Sep. 2025 - Jun. 2029 (Expected)** Ph.D., Statistics and Data Science, University of California, Los Angeles, USA
+- **Sep. 2025 - Present** Ph.D., Statistics and Data Science, University of California, Los Angeles, USA
 - **Aug. 2022 - Jun. 2025** M.Sc., Data Science and Information Technology, Tsinghua University, Beijing, China.
 - **Sep. 2018 - Jun. 2022** B.Sc., Electronic Information Science and Technology, Sun Yat-sen University, Guangzhou, China.
 
