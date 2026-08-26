@@ -46,7 +46,6 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
     
 
@@ -85,6 +84,11 @@
     }
 
 
+}
+
+/* 分隔线只画在相邻两条发表之间；最后一条不再拖一根线到下个标题上方 */
+.paper-box + .paper-box {
+    border-top: 1px #efefef solid;
 }
 
 $scroll_offset : 2em;
