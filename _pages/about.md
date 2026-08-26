@@ -181,7 +181,7 @@ We present a self-consistency based decoding strategy that improves factual accu
 
 <!-- ====================== TRAIT ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">EMNLP 2024</div>
+  <div class="badge">EMNLP 2024 Main</div>
   <img src='images/TRAIT.png' alt="TRAIT" width="100%">
 </div></div>
 <div class='paper-box-text' markdown="1">

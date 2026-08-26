@@ -116,6 +116,9 @@ h1:before, .anchor:before {
     list-style: none;
     padding-inline-start: 1.5em;
     margin-block-start: 0.4em;
+    /* 嵌套列表是每段实习的最后一个子元素，这里的下边距会与外层 li 的
+       margin-bottom(0.5em) 合并，取较大值，从而拉开三段实习之间的间距 */
+    margin-block-end: 1.2em;
 }
 
 .page__content li ul > li {
