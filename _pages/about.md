@@ -26,6 +26,8 @@ redirect_from:
 <div style="margin-top: 15px;"></div>
 
 # 🔥 News
+- *2026.08*: &nbsp; 🎉 Our paper [NSDS](https://arxiv.org/abs/2603.17354) has been accepted by EMNLP 2026. 
+- *2026.07*: &nbsp; 🎉 Our paper [Agent Q-Mix](https://arxiv.org/abs/2604.00344) has been accepted by COLM 2026. 
 - *2026.04*: &nbsp; 🎉 Eight papers (Including [DAC](https://arxiv.org/abs/2602.02477), [HAGeo](https://arxiv.org/abs/2512.00097), and [TL;DR](https://arxiv.org/abs/2506.02678)) have been accepted by ACL 2026.
 - *2026.01*: &nbsp; 🎉 Two papers [SvS](https://arxiv.org/abs/2508.14029) and [RLVR Incentivizes Correct Reasoning](https://arxiv.org/abs/2506.14245) have been accepted by ICLR 2026.
 - *2025.09*: &nbsp; 🎉 Our paper [SwS](https://arxiv.org/abs/2506.08989) has been accepted by Neurips 2025.
