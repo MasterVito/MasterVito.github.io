@@ -17,8 +17,7 @@ redirect_from:
   <a href="https://web.cs.ucla.edu/~kwchang/" target="_blank">Kai-Wei Chang</a> and Prof. <a href="http://www.stat.ucla.edu/~ywu/me.html" target="_blank">Ying Nian Wu</a>. 
   Before that, I earned my M.S. in Data Science from Tsinghua University and B.S. in Electronic Engineering from Sun Yat-sen University (SYSU).
   Currently, I'm a research intern at Microsoft AI Superintelligence Team, working with 
-  Dr. <a href="https://www.microsoft.com/en-us/research/people/yegong/" target="_blank">Yeyun Gong</a>, 
-  Dr. <a href="https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en" target="_blank">Yelong Shen</a>, 
+  Dr. <a href="https://www.microsoft.com/en-us/research/people/yegong/" target="_blank">Yeyun Gong</a> 
   and Dr. <a href="https://www.microsoft.com/en-us/research/people/wzchen/" target="_blank">Weizhu Chen</a>. 
   My research interests lie at large language models (LLMs) and agentic post-training. 
   <div style="margin-top: 6px;"></div>
