@@ -19,7 +19,7 @@ redirect_from:
   Currently, I'm a research intern at Microsoft AI Superintelligence Team, working with 
   Dr. <a href="https://www.microsoft.com/en-us/research/people/yegong/" target="_blank">Yeyun Gong</a> 
   and Dr. <a href="https://www.microsoft.com/en-us/research/people/wzchen/" target="_blank">Weizhu Chen</a>. 
-  My research interests lie at large language models (LLMs) and agentic post-training. 
+  My research interests lie in large language models (LLMs) and agentic post-training. 
   <div style="margin-top: 6px;"></div>
 </div>
 
@@ -40,7 +40,7 @@ redirect_from:
 
 # 📖 Education
 - **Sep. 2025 - Present** Ph.D., Statistics and Data Science, University of California, Los Angeles, USA
-- **Aug. 2022 - Jun. 2025** M.Sc., Data Science and Information Technology, Tsinghua University, Beijing, China.
+- **Sep. 2022 - Jun. 2025** M.Sc., Data Science and Information Technology, Tsinghua University, Beijing, China.
 - **Sep. 2018 - Jun. 2022** B.Sc., Electronic Information Science and Technology, Sun Yat-sen University, Guangzhou, China.
 
 <div style="margin-top: 15px;"></div>
@@ -64,24 +64,6 @@ redirect_from:
 
 # 📑 Selected Publications
 
-<!-- ====================== DAC-RL ====================== -->
-<div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">ACL 2026</div>
-  <img src='images/dac.png' alt="SwS" width="100%">
-</div></div>
-<div class='paper-box-text' markdown="1">
-
-[Training LLMs for Divide-and-Conquer Reasoning Elevates Test-Time Scalability](https://arxiv.org/abs/2602.02477)
-
-**Xiao Liang**, Zhong-Zhi Li, Zhenghao Lin, Eric Hancheng Jiang, Hengyuan Zhang, Yelong Shen, Kai-Wei Chang, Ying Nian Wu, Yeyun Gong, Weizhu Chen
-
-[**Code**](https://github.com/MasterVito/DAC-RL)
-
-We introduce an end-to-end RL framework to endow LLMs with divide-and-conquer reasoning capabilities, enabling a higher performance ceiling and stronger test-time scalability.
-
-</div></div>
-
-
 <!-- ====================== SvS ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
   <div class="badge">ICLR 2026</div>
@@ -97,6 +79,24 @@ We introduce an end-to-end RL framework to endow LLMs with divide-and-conquer re
 [**Project Page**](https://mastervito.github.io/SvS.github.io/)
 
 We propose an online Self-play with Variational Problem Synthesis strategy for RLVR training that iteratively leverages model responses to synthesize variational problems for augmentation.
+</div></div>
+
+
+<!-- ====================== DAC-RL ====================== -->
+<div class='paper-box'><div class='paper-box-image'><div>
+  <div class="badge">ACL 2026</div>
+  <img src='images/dac.png' alt="SwS" width="100%">
+</div></div>
+<div class='paper-box-text' markdown="1">
+
+[Training LLMs for Divide-and-Conquer Reasoning Elevates Test-Time Scalability](https://arxiv.org/abs/2602.02477)
+
+**Xiao Liang**, Zhong-Zhi Li, Zhenghao Lin, Eric Hancheng Jiang, Hengyuan Zhang, Yelong Shen, Kai-Wei Chang, Ying Nian Wu, Yeyun Gong, Weizhu Chen
+
+[**Code**](https://github.com/MasterVito/DAC-RL)
+
+We introduce an end-to-end RL framework to endow LLMs with divide-and-conquer reasoning capabilities, enabling a higher performance ceiling and stronger test-time scalability.
+
 </div></div>
 
 <!-- ====================== SwS ====================== -->
@@ -182,7 +182,7 @@ We present a self-consistency based decoding strategy that improves factual accu
 
 <!-- ====================== TRAIT ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
-  <div class="badge">EMNLP 2024 Main</div>
+  <div class="badge">EMNLP 2024</div>
   <img src='images/TRAIT.png' alt="TRAIT" width="100%">
 </div></div>
 <div class='paper-box-text' markdown="1">
