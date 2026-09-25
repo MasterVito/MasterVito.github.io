@@ -76,7 +76,7 @@ redirect_from:
 **Xiao Liang\***, Zhong-Zhi Li\*, Yeyun Gong, Yelong Shen, Ying Nian Wu, Zhijiang Guo, Weizhu Chen
 
 [**Code**](https://github.com/MasterVito/SvS)
-[**Project Page**](https://mastervito.github.io/SvS.github.io/)
+[**Project Page**](https://mastervito.github.io/SvS/)
 
 We propose an online Self-play with Variational Problem Synthesis strategy for RLVR training that iteratively leverages model responses to synthesize variational problems for augmentation.
 </div></div>
@@ -111,7 +111,7 @@ We introduce an end-to-end RL framework to endow LLMs with divide-and-conquer re
 **Xiao Liang\***, Zhong-Zhi Li\*, Yeyun Gong, Yang Wang, Hengyuan Zhang, Yelong Shen, Ying Nian Wu, Weizhu Chen
 
 [**Code**](https://github.com/MasterVito/SwS)
-[**Project Page**](https://mastervito.github.io/MasterVito.SwS.github.io/)
+[**Project Page**](https://mastervito.github.io/SwS/)
 
 We introduce a Self-aware Weakness-driven Problem Synthesis framework that identifies and leverages model weaknesses for problem augmentation in RLVR.
 </div></div>
