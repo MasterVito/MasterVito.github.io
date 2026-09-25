@@ -1,0 +1,90 @@
+% Recreated from the August 26, 2026 CV; SI2CA added September 24, 2026.
+% Compile with: pdflatex Xiao_Liang_CV_26_09_24.tex
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.05\paperwidth,top=28pt,bottom=32pt]{geometry}
+\usepackage{fontawesome5}
+\usepackage{xcolor,enumitem,titlesec,needspace}
+\definecolor{linkblue}{HTML}{003399}
+\usepackage[colorlinks=true,urlcolor=linkblue,linkcolor=linkblue,pdfauthor={Xiao Liang},pdftitle={Xiao Liang - Curriculum Vitae}]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\titleformat{\section}{\Large\bfseries}{}{0pt}{}[\vspace{2pt}\titlerule]
+\titlespacing*{\section}{0pt}{15pt}{11pt}
+\newcommand{\row}[2]{\textbf{#1}\hfill\textit{#2}\par}
+\newcommand{\degree}[1]{\vspace{4pt}#1\par\vspace{11pt}}
+\newcommand{\mentor}[1]{\vspace{8pt}\textit{Mentor: #1}\par}
+\newcommand{\gong}{\href{https://scholar.google.com/citations?user=piUkwMYAAAAJ&hl=en}{Dr. Yeyun Gong}}
+\newcommand{\chen}{\href{https://scholar.google.com/citations?user=LG_E-4EAAAAJ&hl=en}{Dr. Weizhu Chen}}
+\newcommand{\scholar}{https://scholar.google.com/citations?user=JHWyBKIAAAAJ&hl=en}
+\newcommand{\plink}[2]{\href{#1}{[#2]}}
+\newcounter{pub}
+\newcommand{\publication}[1]{\stepcounter{pub}\item\begin{minipage}[t]{\linewidth}[\thepub] #1\end{minipage}}
+\setlist[itemize,1]{leftmargin=18pt,label={\small\textbullet},labelsep=7pt,topsep=4pt,itemsep=3pt,parsep=0pt,partopsep=0pt}
+\begin{document}
+\begin{center}
+{\fontsize{24.88}{30}\selectfont Xiao Liang}\par
+\vspace{10pt}
+\href{mailto:vitoliang0601@gmail.com}{\faEnvelope\ Email}\quad$|$\quad
+\href{https://github.com/MasterVito}{\faGithub\ Github}\quad$|$\quad
+\href{https://mastervito.github.io/}{\faGlobe\ Website}\quad$|$\quad
+\href{https://www.linkedin.com/in/xiao-liang-63a120273/}{\faLinkedin\ Linkedin}\quad$|$\quad
+\href{\scholar}{\faGraduationCap\ Google Scholar}
+\end{center}
+\vspace{-4pt}
+\section*{Education}
+\row{University of California, Los Angeles (UCLA)}{Sep. 2025 - Present}
+\degree{\textbf{Ph.D} $|$ Advisor: \textbf{\href{https://web.cs.ucla.edu/~kwchang/}{Kai-Wei Chang}, \href{http://www.stat.ucla.edu/~ywu/me.html}{Ying Nian Wu}}}
+\row{Tsinghua University (THU)}{Sep. 2022 - Jun. 2025}
+\degree{\textbf{M.Sc.} $|$ \textit{Data Science and Information Technology}}
+\row{Sun Yat-sen University (SYSU)}{Sep. 2018 - Jun. 2022}
+\degree{\textbf{B.Sc.} $|$ \textit{Electronic Information Science and Technology}}
+\vspace{-11pt}
+\section*{Employment \& Experience}
+\row{Microsoft AI Superintelligence}{Jun. 2026 - Sep. 2026}
+\mentor{\gong, \href{https://scholar.google.com/citations?user=pl-qLQwAAAAJ&hl=en}{Dr. Paul Mineiro}, \chen}
+\begin{itemize}
+\item Self-improving coding agents by generating more compact, higher-quality trajectories.
+\end{itemize}
+\vspace{9pt}
+\row{Microsoft Research \& CoreAI}{Nov. 2023 - May 2026}
+\mentor{\gong, \href{https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en}{Dr. Yelong Shen}, \chen}
+\begin{itemize}
+\item Pre-training and continual learning for large language models (LLMs).
+\item Data-centric reinforcement learning for enhancing LLM reasoning.
+\end{itemize}
+\vspace{9pt}
+\row{Tencent Artificial Intelligence Lab (AI Lab, NLP)}{Mar. 2023 - Sep. 2023}
+\mentor{\href{https://linear95.github.io/}{Dr. Pengyu Cheng}\hfill Shenzhen, China}
+\begin{itemize}
+\item Utilizing reinforcement learning for long sequence modeling in Transformers.
+\item Dialog generation and task-specific instruction data generation.
+\end{itemize}
+\section*{Selected Publications}
+\begin{itemize}[leftmargin=13pt,labelsep=6pt,itemsep=11pt,topsep=0pt]
+\publication{\textbf{Xiao Liang}, other SI2CA contributors. \textit{(Self-Improving)\textsuperscript{2} Coding Agents: Curating High-Quality Trajectories via Recursive Self-Improvement}. \textbf{Technical Report}. \plink{https://github.com/Self-Improving-Coding-Agents/SI2CA/blob/main/reports/SI2CA-Technical-Report.pdf}{Paper} \plink{https://github.com/Self-Improving-Coding-Agents/SI2CA}{Code} \plink{https://self-improving-coding-agents.github.io/SI2CA-Visualization/site/\#blog}{Page}}
+\publication{\textbf{Xiao Liang}*, Zhong-Zhi Li*, Yeyun Gong, Yelong Shen, Ying Nian Wu, Zhijiang Guo, Weizhu Chen. \textit{Beyond Pass@1: Self-Play With Variational Problem Synthesis Sustains RLVR}. \textbf{ICLR 2026}. \plink{https://arxiv.org/abs/2508.14029}{Paper} \plink{https://github.com/MasterVito/SvS}{Code} \plink{https://mastervito.github.io/SvS.github.io/}{Page}}
+\publication{\textbf{Xiao Liang}*, Zhong-Zhi Li*, Yeyun Gong, Yang Wang, Hengyuan Zhang, Yelong Shen, Ying Nian Wu, Weizhu Chen. \textit{SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning}. \textbf{NeurIPS 2025}. \plink{https://arxiv.org/abs/2506.08989}{Paper} \plink{https://github.com/MasterVito/SwS}{Code} \plink{https://mastervito.github.io/MasterVito.SwS.github.io/}{Page}}
+\publication{\textbf{Xiao Liang}, Zhong-Zhi Li, Zhenghao Lin, Eric Hancheng Jiang, Hengyuan Zhang, Yelong Shen, Kai-Wei Chang, Ying Nian Wu, Yeyun Gong, Weizhu Chen. \textit{Training LLMs for Divide-and-Conquer Reasoning Elevates Test-Time Scalability}. \textbf{ACL 2026 Main}. \plink{https://arxiv.org/abs/2602.02477}{Paper} \plink{https://github.com/MasterVito/DAC-RL}{Code}}
+\publication{\textbf{Xiao Liang}*, Xinyu Hu*, Simiao Zuo, Yeyun Gong, Qiang Lou, Yi Liu, Shao-Lun Huang, Jian Jiao. \textit{Task Oriented In-Domain Data Augmentation}. \textbf{EMNLP 2024 Main}. \plink{https://arxiv.org/pdf/2406.16694}{Paper}}
+\publication{Zhong-Zhi Li*, \textbf{Xiao Liang}*, Zihao Tang, Lei Ji, Peijie Wang, Haotian Xu, Xing W, Haizhen Huang, Weiwei Deng, Yeyun Gong, Ying Nian Wu, Zhijiang Guo, Xiao Liu, Fei Yin, Cheng-Lin Liu. \textit{TL;DR: Too Long, Do Re-weighting for Efficient LLM Reasoning Compression}. \textbf{ACL 2026 Main}. \plink{https://arxiv.org/abs/2506.02678}{Paper} \plink{https://github.com/zzli2022/TLDR}{Code}}
+\publication{Yi Cheng, \textbf{Xiao Liang}, Yeyun Gong, Wen Xiao, Song Wang, Yuji Zhang, Wenjun Hou, Kaishuai Xu, Wenge Liu, Wenjie Li, Jian Jiao, Qi Chen, Peng Cheng, Wayne Xiong. \textit{Integrative Decoding: Improve Factuality via Implicit Self-consistency}. \textbf{ICLR 2025}. \plink{https://arxiv.org/abs/2410.01556}{Paper} \plink{https://github.com/YiCheng98/IntegrativeDecoding}{Code}}
+\publication{Jiawen Xie, Pengyu Cheng, \textbf{Xiao Liang}, Yong Dai, Nan Du. \textit{Chunk, Align, Select: A Simple Long-sequence Processing Method for Transformers}. \textbf{ACL 2024 Main}. \plink{https://arxiv.org/pdf/2308.13191}{Paper} \plink{https://github.com/xjw-nlp/SimCAS}{Code}}
+\end{itemize}
+(* equal contribution; see my \textbf{\href{\scholar}{Google Scholar}} profile for the full list)
+\section*{Awards and Honors}
+\begin{itemize}[topsep=0pt]
+\item Graduate Dean's Scholar Award (GDSA) of UCLA, Amount: \$14,500. \hfill\textit{Sep. 2025}
+\item Outstanding Master Graduate Thesis of Tsinghua University. \hfill\textit{May 2025}
+\item Second Prize Scholarship of Tsinghua University (top 10\%). \hfill\textit{2023 - 2024}
+\item Outstanding Graduate Thesis of Sun Yat-sen University (top 5\%). \hfill\textit{Jun. 2022}
+\item Outstanding Graduate Student of Sun Yat-sen University (top 10\%). \hfill\textit{Jun. 2022}
+\item Second Prize Scholarship of Sun Yat-sen University (top 15\%) for 3 times. \hfill\textit{2019 - 2022}
+\end{itemize}
+\section*{Skills}
+\textbf{Programming Languages}: Python $|$ Shell $|$ LATEX $|$ C++/C $|$ Claude Code $|$ Codex\par\vspace{7pt}
+\textbf{Programming Tools}: Git $|$ PyTorch $|$ Docker $|$ Linux Ops $|$ Vim\par\vspace{7pt}
+\textbf{English Skills}: Toefl 102
+\end{document}
