@@ -64,6 +64,8 @@
     .paper-box-text{
         max-width: 100%;
         order: 1;
+        text-align: justify;
+        text-align-last: left;
     }
     
     @include breakpoint($medium) {
