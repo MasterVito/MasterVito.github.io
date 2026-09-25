@@ -64,6 +64,25 @@ redirect_from:
 
 # 📑 Selected Publications
 
+<!-- ====================== SI2CA ====================== -->
+<div class='paper-box'><div class='paper-box-image'><div>
+  <div class="badge">Technical Report</div>
+  <img src='images/si2ca.png' alt="SI2CA: turn-level self-improvement and recursive trajectory curation" width="100%">
+</div></div>
+<div class='paper-box-text' markdown="1">
+
+[(Self-Improving)² Coding Agents: Curating High-Quality Trajectories via Recursive Self-Improvement](https://github.com/Self-Improving-Coding-Agents/SI2CA/blob/main/reports/SI2CA-Technical-Report.pdf)
+
+**Xiao Liang**, other SI2CA contributors
+
+[**Paper**](https://github.com/Self-Improving-Coding-Agents/SI2CA/blob/main/reports/SI2CA-Technical-Report.pdf)
+[**Code**](https://github.com/Self-Improving-Coding-Agents/SI2CA)
+[**Project Page**](https://self-improving-coding-agents.github.io/SI2CA-Visualization/site/#qwen122b/swebench_pro_731/overview)
+
+We introduce a framework that curates accurate, concise coding-agent trajectories through turn-level self-improvement and recursively refines the curation strategy to reduce cost.
+</div></div>
+
+
 <!-- ====================== SvS ====================== -->
 <div class='paper-box'><div class='paper-box-image'><div>
   <div class="badge">ICLR 2026</div>
@@ -246,4 +265,3 @@ We introduce a unified framework that integrates natural language, algorithmic, 
 - Outstanding Graduate Student, Sun Yat-sen University, Guangdong, 2022
 - Second Prize Scholarship, Sun Yat-sen University, Guangdong, 2019~2022
 - 1st of the 2022 Tsinghua Open Hack Competition - Multimodal Learning Track, Tsinghua University, Beijing, 2022
-
